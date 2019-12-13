@@ -1,0 +1,120 @@
+info|2019-10-25 20:11:17.100763|[INITIALIZER][initGlobalConfig],enableCompress=true,compatibilityVersion=2.1.0,versionNumber=33619968,chainId=1
+info|2019-10-25 20:11:17.118299|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-10-25 20:11:17.118401|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-10-25 20:11:17.118445|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30302
+info|2019-10-25 20:11:17.118483|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30303
+info|2019-10-25 20:11:17.118520|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30304
+info|2019-10-25 20:11:17.118555|[P2P][Service] heartBeat,connected count=0
+info|2019-10-25 20:11:17.119079|[CHANNEL]ChannelRPCServer started
+info|2019-10-25 20:11:17.119947|[INITIALIZER][RPCInitializer]ChannelRPCHttpServer started.
+info|2019-10-25 20:11:17.119969|[LedgerInitializer],groupConfigPath=conf/
+error|2019-10-25 20:11:17.120023|[INITIALIZER][LedgerInitializer]Should init at least one group
+info|2019-10-25 20:11:17.122942|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30304
+info|2019-10-25 20:11:17.123252|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-10-25 20:11:17.123437|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+info|2019-10-25 20:11:17.123615|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30302
+info|2019-10-25 20:11:17.123837|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30303
+info|2019-10-25 20:11:17.123886|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30304
+info|2019-10-25 20:11:17.127825|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:48480
+info|2019-10-25 20:11:17.127873|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30304
+info|2019-10-25 20:11:17.218450|[P2P][Service] Connection established,nodeID=6f997471...,endpoint=127.0.0.1:30300
+info|2019-10-25 20:11:17.218485|[NETWORK][Host]startPeerSession, From=127.0.0.1:30300,nodeID=6f997471...
+info|2019-10-25 20:11:17.218595|[P2P][Service] Connection established,nodeID=3c841dae...,endpoint=127.0.0.1:30301
+info|2019-10-25 20:11:17.218617|[NETWORK][Host]startPeerSession, From=127.0.0.1:30301,nodeID=3c841dae...
+info|2019-10-25 20:11:17.218679|[NETWORK][Host]startPeerSession, From=127.0.0.1:48480,nodeID=6e4f3ba3...
+info|2019-10-25 20:11:17.218851|[NETWORK][Host]startPeerSession, From=127.0.0.1:30304,nodeID=6e4f3ba3...
+info|2019-10-25 20:11:17.220203|[P2P][Service] Connection established,nodeID=9303553a...,endpoint=127.0.0.1:30303
+info|2019-10-25 20:11:17.220233|[NETWORK][Host]startPeerSession, From=127.0.0.1:30303,nodeID=9303553a...
+info|2019-10-25 20:11:17.220329|[P2P][Service] Connection established,nodeID=7977f137...,endpoint=127.0.0.1:30302
+info|2019-10-25 20:11:17.220349|[NETWORK][Host]startPeerSession, From=127.0.0.1:30302,nodeID=7977f137...
+error|2019-10-25 20:11:17.248524|[INITIALIZER][Initializer]Init failed,EINFO=/FISCO-BCOS/libinitializer/LedgerInitializer.cpp(52): Throw in function void dev::initializer::LedgerInitializer::initConfig(const boost::property_tree::ptree &)
+Dynamic exception type: boost::exception_detail::clone_impl<dev::InitLedgerConfigFailed>
+std::exception::what: std::exception
+[dev::tag_comment*] = [LedgerInitializer]: Should init at least one group! Please check configuration!
+
+info|2019-10-25 20:11:17.248739|[INITIALIZER]ledgerInitializer stopped
+warning|2019-10-25 20:11:17.248782|[CHANNEL]Accept failed,message=Operation canceled
+warning|2019-10-25 20:11:17.248874|[CHANNEL]Accept failed,message=Operation canceled
+warning|2019-10-25 20:11:17.249046|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249093|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249129|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249165|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249200|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249234|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249268|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249302|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249338|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249371|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249404|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249438|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249475|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249512|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249547|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249584|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249617|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249650|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249683|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249718|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249752|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249785|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249818|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249851|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249914|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249950|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.249985|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250019|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250052|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250085|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250118|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250152|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250187|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250223|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250259|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250292|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250326|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250359|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250392|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250425|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250458|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250492|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250526|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250561|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250594|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250627|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250660|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250694|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250727|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250760|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250794|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.250828|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251206|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251255|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251302|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251348|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251394|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251439|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251485|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251532|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251577|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251623|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251669|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251715|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251761|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251806|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251885|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251933|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.251979|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.252025|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.252071|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.252117|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.252163|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.252210|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.252256|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.252302|[CHANNEL]SSL handshake error,message=Bad file descriptor
+warning|2019-10-25 20:11:17.252449|[CHANNEL]SSL handshake error,message=Bad file descriptor
+info|2019-10-25 20:11:17.262130|[NETWORK][Session]Received topic: [10] from 6f9974710b9ea562ecc6a6823039b05e159d8669f228efa0c8b8234f08c2b75fb97eecdae4ef16bc99800bdfa03ed03d619629887e9c1c8b46ad79f5d38c4991
+info|2019-10-25 20:11:18.252706|[INITIALIZER]ChannelRPCHttpServer deleted.
+info|2019-10-25 20:11:18.252759|[INITIALIZER]RPCInitializer stopped
+error|2019-10-25 20:11:18.252801|[NETWORK][Host]Error: system:125
+info|2019-10-25 20:11:18.252914|[NETWORK][Host]Host exit
+info|2019-10-25 20:11:18.253166|[INITIALIZER]P2PInitializer stopped

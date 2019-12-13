@@ -1,0 +1,5 @@
+info|2019-12-12 19:15:58.035096|[P2P][Service] heartBeat,connected count=4
+info|2019-12-12 19:16:03.036118|[NETWORK][Session]Received topic: [7	_block_notify_1] from 6f9974710b9ea562ecc6a6823039b05e159d8669f228efa0c8b8234f08c2b75fb97eecdae4ef16bc99800bdfa03ed03d619629887e9c1c8b46ad79f5d38c4991
+info|2019-12-12 19:16:08.035396|[P2P][Service] heartBeat,connected count=4
+info|2019-12-12 19:16:18.035470|[P2P][Service] heartBeat,connected count=4
+info|2019-12-12 19:16:28.035549|[P2P][Service] heartBeat,connected count=4

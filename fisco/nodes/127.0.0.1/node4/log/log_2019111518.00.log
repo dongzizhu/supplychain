@@ -1,0 +1,32 @@
+info|2019-11-15 18:00:06.273194|[P2P][Service] heartBeat,connected count=4
+info|2019-11-15 18:00:16.273346|[P2P][Service] heartBeat,connected count=4
+info|2019-11-15 18:00:26.273440|[P2P][Service] heartBeat,connected count=4
+info|2019-11-15 18:00:36.273536|[P2P][Service] heartBeat,connected count=4
+info|2019-11-15 18:00:46.273629|[P2P][Service] heartBeat,connected count=4
+info|2019-11-15 18:00:56.273740|[P2P][Service] heartBeat,connected count=4
+info|2019-11-15 18:01:06.273850|[P2P][Service] heartBeat,connected count=4
+info|2019-11-15 18:01:16.274648|[P2P][Service] heartBeat,connected count=4
+info|2019-11-15 18:01:17.080444|[LEDGER]stop sealer,groupID=1
+info|2019-11-15 18:01:17.080460|[CONSENSUS][SEALER]Stop sealer module...
+info|2019-11-15 18:01:17.086188|[CONSENSUS][ConsensusEngine][Stop ConsensusEngineBase]
+info|2019-11-15 18:01:17.086681|[CONSENSUS][ConsensusEngine]ConsensusEngineBase stopped
+info|2019-11-15 18:01:17.086692|[LEDGER]sealer stopped. stop sync,groupID=1
+info|2019-11-15 18:01:17.184414|[SYNC][id:6e4f3ba3...]SyncMaster stopped
+info|2019-11-15 18:01:17.184430|[LEDGER]ledger stopped,groupID=1
+info|2019-11-15 18:01:17.314641|[EVENT][EventLogFilterManager]stop
+info|2019-11-15 18:01:17.314657|[LEDGER]event filter manager stopped,groupID=1
+info|2019-11-15 18:01:17.314664|[INITIALIZER]ledgerInitializer stopped
+info|2019-11-15 18:01:18.314959|[INITIALIZER]ChannelRPCHttpServer deleted.
+info|2019-11-15 18:01:18.315229|[INITIALIZER]JsonrpcHttpServer deleted.
+info|2019-11-15 18:01:18.315243|[INITIALIZER]RPCInitializer stopped
+info|2019-11-15 18:01:18.315303|[NETWORK][Host]Host exit
+info|2019-11-15 18:01:18.315643|[INITIALIZER]P2PInitializer stopped
+info|2019-11-15 18:01:18.315661|[LEDGER]stop sealer,groupID=1
+info|2019-11-15 18:01:18.315669|[LEDGER]sealer stopped. stop sync,groupID=1
+info|2019-11-15 18:01:18.315675|[SYNC][id:6e4f3ba3...]SyncMaster stopped
+info|2019-11-15 18:01:18.315680|[LEDGER]ledger stopped,groupID=1
+info|2019-11-15 18:01:18.315685|[LEDGER]event filter manager stopped,groupID=1
+info|2019-11-15 18:01:18.315694|[STORAGE]Stopping flushStorage thread
+info|2019-11-15 18:01:18.824624|[STORAGE]flushStorage thread stopped.
+info|2019-11-15 18:01:18.824644|[DBINITIALIZER] storage stopped
+info|2019-11-15 18:01:18.824704|[SYNC][id:6e4f3ba3...]SyncMaster stopped

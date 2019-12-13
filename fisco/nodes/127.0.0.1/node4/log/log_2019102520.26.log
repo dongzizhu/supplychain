@@ -1,0 +1,505 @@
+info|2019-10-25 20:26:31.866812|[INITIALIZER][initGlobalConfig],enableCompress=true,compatibilityVersion=2.1.0,versionNumber=33619968,chainId=1
+info|2019-10-25 20:26:31.884501|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-10-25 20:26:31.884602|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-10-25 20:26:31.884647|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30302
+info|2019-10-25 20:26:31.884686|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30303
+info|2019-10-25 20:26:31.884723|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30304
+info|2019-10-25 20:26:31.884759|[P2P][Service] heartBeat,connected count=0
+info|2019-10-25 20:26:31.885280|[CHANNEL]ChannelRPCServer started
+info|2019-10-25 20:26:31.885301|[INITIALIZER][RPCInitializer]ChannelRPCHttpServer started.
+info|2019-10-25 20:26:31.885320|[LedgerInitializer],groupConfigPath=conf/
+info|2019-10-25 20:26:31.885462|[INITIALIZER][initSingleLedger] [GroupId]:  1
+info|2019-10-25 20:26:31.885489|[g:1][LEDGER]LedgerConstructor,configPath=conf/group.1.genesis,baseDir=data//group1
+info|2019-10-25 20:26:31.885504|[g:1][LEDGER][initGenesisConfig]initConsensusConfig/initDBConfig/initTxConfig,configFile=conf/group.1.genesis
+info|2019-10-25 20:26:31.890043|[g:1][LEDGER][initConsensusConfig],it.first=6f9974710b9ea562ecc6a6823039b05e159d8669f228efa0c8b8234f08c2b75fb97eecdae4ef16bc99800bdfa03ed03d619629887e9c1c8b46ad79f5d38c4991
+info|2019-10-25 20:26:31.890095|[g:1][LEDGER][initConsensusConfig],it.first=3c841dae42d67ff6c383c1bb1de35a240c03722517cf3711eacd8c8d1b168ac146b4580f67399b4d7d2a36358faea19bc9d7875a3160147b3b9c3c9eb331f80c
+info|2019-10-25 20:26:31.890119|[g:1][LEDGER][initConsensusConfig],it.first=7977f13736cfe14481107f9daa8a957d5156ba4f001285ee5d658512a97bedebf72a47213feba7cce05ecd2639f2426ad79a3abd436fe58d3eab1d37c47da13c
+info|2019-10-25 20:26:31.890142|[g:1][LEDGER][initConsensusConfig],it.first=9303553ad8ac45cce2b6dfa1efc53e16bad3db119e47da65b9656ed9be68073f3a68780aaf85b2d1545a93db9d541276a33bdd6f3bef1baab3c8c44880e1837a
+info|2019-10-25 20:26:31.890191|[g:1][LEDGER][initIniConfig]initTxPoolConfig/initSyncConfig/initTxExecuteConfig,configFile=conf/group.1.ini
+info|2019-10-25 20:26:31.890305|[g:1][LEDGER][initLedger][DBInitializer]
+info|2019-10-25 20:26:31.890332|[g:1][DBINITIALIZER] [initRocksDBStorage]
+info|2019-10-25 20:26:31.891487|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30304
+info|2019-10-25 20:26:31.892876|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-10-25 20:26:31.893081|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+info|2019-10-25 20:26:31.893280|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30302
+info|2019-10-25 20:26:31.893477|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30303
+info|2019-10-25 20:26:31.893525|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30304
+info|2019-10-25 20:26:31.895570|[g:1][ROCKSDB]open rocksDB handler
+info|2019-10-25 20:26:31.897926|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:48510
+info|2019-10-25 20:26:31.898515|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30304
+info|2019-10-25 20:26:31.930923|[g:1][g:0][STORAGE][CachedStorage]Init flushStorage thread
+info|2019-10-25 20:26:31.932458|[g:1][g:1][STORAGE][CachedStorage]CachedStorage commit: 4 hash: b1ccc12237130adaaa526b94ec00dad3a81d91b6d5f52cd0e0d0ec66729506d7 num: 0
+info|2019-10-25 20:26:31.932545|[g:1][STORAGE]Submited block task: 0, current syncd block: 0
+info|2019-10-25 20:26:31.932578|[g:1][BLOCKCHAIN][#checkAndBuildGenesisBlock]Insert the 0th block
+info|2019-10-25 20:26:31.932830|[g:1][CONSENSUS][PBFT]Register handler for PBFTEngine
+info|2019-10-25 20:26:31.932856|[g:1][CONSENSUS][PBFT],minBlockGenerationTime=500
+info|2019-10-25 20:26:31.932879|[LedgerInitializer init group succ],groupID=1
+info|2019-10-25 20:26:31.933060|[INITIALIZER][RPCInitializer]JsonrpcHttpServer started.
+info|2019-10-25 20:26:31.933080|[g:1][LEDGER]startAll...
+info|2019-10-25 20:26:31.936642|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=0,sealerIdx=0,hash=b1ccc122...,next=1,tx=0,nodeIdx=65535
+info|2019-10-25 20:26:31.938381|[STORAGE]Start commit block: 0 to backend storage
+info|2019-10-25 20:26:31.939300|[STORAGE][g:1]
+---------------------------------------------------------------------
+Commit block: 0 to backend storage finished, current cached block: 0
+Flush elapsed time: 0.0024s
+---------------------------------------------------------------------
+
+info|2019-10-25 20:26:31.942537|[g:1][CONSENSUS][PBFT][PBFT init env successfully]
+info|2019-10-25 20:26:31.942559|[g:1][CONSENSUS][ConsensusEngine][Start ConsensusEngineBase]
+info|2019-10-25 20:26:31.945121|[g:1][CONSENSUS][PBFT][Start PBFTEngine...]
+info|2019-10-25 20:26:31.945130|[g:1][CONSENSUS][SEALER][Start sealer module]
+info|2019-10-25 20:26:31.945231|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=0,sealerIdx=0,hash=b1ccc122...,next=1,tx=0,nodeIdx=65535
+info|2019-10-25 20:26:31.952912|[g:1][EVENT][EventLogFilterManager]start,m_maxBlockRange=0,m_maxBlockPerLoopFilter=3
+info|2019-10-25 20:26:31.978565|[P2P][Service] Connection established,nodeID=6f997471...,endpoint=127.0.0.1:30300
+info|2019-10-25 20:26:31.978613|[NETWORK][Host]startPeerSession, From=127.0.0.1:30300,nodeID=6f997471...
+info|2019-10-25 20:26:31.978731|[P2P][Service] Connection established,nodeID=3c841dae...,endpoint=127.0.0.1:30301
+info|2019-10-25 20:26:31.978753|[NETWORK][Host]startPeerSession, From=127.0.0.1:30301,nodeID=3c841dae...
+info|2019-10-25 20:26:31.978823|[NETWORK][Host]startPeerSession, From=127.0.0.1:48510,nodeID=6e4f3ba3...
+info|2019-10-25 20:26:31.979005|[NETWORK][Host]startPeerSession, From=127.0.0.1:30304,nodeID=6e4f3ba3...
+info|2019-10-25 20:26:31.979320|[P2P][Service] Connection established,nodeID=7977f137...,endpoint=127.0.0.1:30302
+info|2019-10-25 20:26:31.979344|[NETWORK][Host]startPeerSession, From=127.0.0.1:30302,nodeID=7977f137...
+info|2019-10-25 20:26:31.979438|[P2P][Service] Connection established,nodeID=9303553a...,endpoint=127.0.0.1:30303
+info|2019-10-25 20:26:31.979457|[NETWORK][Host]startPeerSession, From=127.0.0.1:30303,nodeID=9303553a...
+info|2019-10-25 20:26:32.022098|[NETWORK][Session]Received topic: [10] from 6f9974710b9ea562ecc6a6823039b05e159d8669f228efa0c8b8234f08c2b75fb97eecdae4ef16bc99800bdfa03ed03d619629887e9c1c8b46ad79f5d38c4991
+info|2019-10-25 20:26:41.884835|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:26:51.884910|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:27:01.885583|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:27:11.886156|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:27:21.886230|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:27:31.886364|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:27:41.886672|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:27:51.886797|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:28:01.887291|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:28:11.887382|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:28:21.887462|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:28:31.887785|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:28:41.888752|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:28:51.888826|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:29:01.889032|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:29:11.889132|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:29:21.889260|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:29:31.889364|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:29:41.889930|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:29:51.890011|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:30:01.890425|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:30:11.890500|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:30:21.890582|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:30:31.890662|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:30:41.890741|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:30:51.890819|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:31:01.890944|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:31:11.891438|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:31:21.891519|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:31:31.891589|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:31:41.891752|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:31:51.892059|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:32:01.892161|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:32:11.892243|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:32:21.892330|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:32:31.892442|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:32:41.892513|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:32:51.892570|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:33:01.892622|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:33:11.892758|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:33:21.892864|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:33:31.893070|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:33:41.893183|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:33:51.893350|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:34:01.893458|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:34:11.894086|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:34:16.943182|[NETWORK][Session]Received topic: [11	_block_notify_1] from 6f9974710b9ea562ecc6a6823039b05e159d8669f228efa0c8b8234f08c2b75fb97eecdae4ef16bc99800bdfa03ed03d619629887e9c1c8b46ad79f5d38c4991
+info|2019-10-25 20:34:21.894867|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:34:31.894943|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:34:41.895035|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:34:51.895126|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:35:01.895216|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:35:11.895287|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:35:21.895360|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:35:31.895495|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:35:41.895999|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:35:51.896073|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:36:01.896278|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:36:11.896416|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:36:21.896501|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:36:31.897123|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:36:41.897248|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:36:51.897749|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:37:01.897864|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:37:11.897990|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:37:21.898143|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:37:31.898773|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:37:41.898850|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:37:51.898932|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:37:51.949571|[NETWORK][Session]Received topic: [12] from 6f9974710b9ea562ecc6a6823039b05e159d8669f228efa0c8b8234f08c2b75fb97eecdae4ef16bc99800bdfa03ed03d619629887e9c1c8b46ad79f5d38c4991
+info|2019-10-25 20:38:01.899019|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:38:11.899100|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:38:21.899181|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:38:31.899253|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:38:41.899335|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:38:51.899729|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:39:01.899929|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:39:01.951909|[NETWORK][Session]Received topic: [13	_block_notify_1] from 6f9974710b9ea562ecc6a6823039b05e159d8669f228efa0c8b8234f08c2b75fb97eecdae4ef16bc99800bdfa03ed03d619629887e9c1c8b46ad79f5d38c4991
+info|2019-10-25 20:39:11.900149|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:39:21.900253|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:39:31.900560|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:39:41.900636|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:39:51.900837|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:40:01.900907|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:40:11.900983|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:40:17.628094|[g:1][SYNC][id:6e4f3ba3...][Download][Request]Request blocks,frm=1,to=6,peer=7977f137...
+info|2019-10-25 20:40:17.829926|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download block execute,number=1,txs=1,hash=2714bca8...
+info|2019-10-25 20:40:17.829990|[g:1][BLOCKVERIFIER][executeBlock]Executing block,txNum=1,num=1,parentHash=b1ccc12237130adaaa526b94ec00dad3a81d91b6d5f52cd0e0d0ec66729506d7,parentNum=0,parentStateRoot=0000000000000000000000000000000000000000000000000000000000000000
+info|2019-10-25 20:40:17.830903|[g:1][g:1][STORAGE][CachedStorage]CachedStorage commit: 8 hash: 2714bca821b44720cb341bc086211e4630a97c4e789b5a44d3682ea403a4990d num: 1
+info|2019-10-25 20:40:17.831073|[STORAGE]Start commit block: 1 to backend storage
+info|2019-10-25 20:40:17.831732|[STORAGE][g:1]
+---------------------------------------------------------------------
+Commit block: 1 to backend storage finished, current cached block: 1
+Flush elapsed time: 0.0007s
+---------------------------------------------------------------------
+
+info|2019-10-25 20:40:17.831754|[g:1][STORAGE]Submited block task: 1, current syncd block: 1
+info|2019-10-25 20:40:17.832020|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=1,sealerIdx=3,hash=2714bca8...,next=2,tx=1,nodeIdx=65535
+info|2019-10-25 20:40:17.832098|[g:1]Push block notify: 1-1
+info|2019-10-25 20:40:17.832161|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download block commit succ,number=1,txs=1,hash=2714bca8...,getBlockByNumberTimeCost=0,executeBlockTimeCost=1,commitBlockTimeCost=2,dropBlockTransTimeCost=0
+info|2019-10-25 20:40:17.832574|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download block execute,number=2,txs=1,hash=5acbbb35...
+info|2019-10-25 20:40:17.832593|[g:1][BLOCKVERIFIER][executeBlock]Executing block,txNum=1,num=2,parentHash=2714bca821b44720cb341bc086211e4630a97c4e789b5a44d3682ea403a4990d,parentNum=1,parentStateRoot=ec67cb32e60d6224ef3d823f0381c622bc5d87610139df82ebd5d5305f743a40
+info|2019-10-25 20:40:17.833171|[g:1][g:1][STORAGE][CachedStorage]CachedStorage commit: 6 hash: 5acbbb35bb40ec86c9838ccf7deece814b1d469f0fe31a7efd4856deca602ffd num: 2
+info|2019-10-25 20:40:17.833282|[STORAGE]Start commit block: 2 to backend storage
+info|2019-10-25 20:40:17.833498|[STORAGE][g:1]
+---------------------------------------------------------------------
+Commit block: 2 to backend storage finished, current cached block: 2
+Flush elapsed time: 0.0002s
+---------------------------------------------------------------------
+
+info|2019-10-25 20:40:17.833525|[g:1][STORAGE]Submited block task: 2, current syncd block: 2
+info|2019-10-25 20:40:17.833722|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=2,sealerIdx=2,hash=5acbbb35...,next=3,tx=1,nodeIdx=65535
+info|2019-10-25 20:40:17.833808|[g:1]Push block notify: 1-2
+info|2019-10-25 20:40:17.833870|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download block commit succ,number=2,txs=1,hash=5acbbb35...,getBlockByNumberTimeCost=0,executeBlockTimeCost=0,commitBlockTimeCost=1,dropBlockTransTimeCost=0
+info|2019-10-25 20:40:17.834312|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download block execute,number=3,txs=1,hash=e42b2ff4...
+info|2019-10-25 20:40:17.834335|[g:1][BLOCKVERIFIER][executeBlock]Executing block,txNum=1,num=3,parentHash=5acbbb35bb40ec86c9838ccf7deece814b1d469f0fe31a7efd4856deca602ffd,parentNum=2,parentStateRoot=66da36559d5b2702b99baf4388ac079c410bd6d30aa177b11a65c5fe25ffd704
+info|2019-10-25 20:40:17.835003|[g:1][g:1][STORAGE][CachedStorage]CachedStorage commit: 8 hash: e42b2ff4fab8a11e993c3457ce3a83f25c99bb480be959d96fd1133e2746eb64 num: 3
+info|2019-10-25 20:40:17.835155|[STORAGE]Start commit block: 3 to backend storage
+info|2019-10-25 20:40:17.836035|[STORAGE][g:1]
+---------------------------------------------------------------------
+Commit block: 3 to backend storage finished, current cached block: 3
+Flush elapsed time: 0.0009s
+---------------------------------------------------------------------
+
+info|2019-10-25 20:40:17.836077|[g:1][STORAGE]Submited block task: 3, current syncd block: 3
+info|2019-10-25 20:40:17.836296|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=3,sealerIdx=2,hash=e42b2ff4...,next=4,tx=1,nodeIdx=65535
+info|2019-10-25 20:40:17.836354|[g:1]Push block notify: 1-3
+info|2019-10-25 20:40:17.836415|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download block commit succ,number=3,txs=1,hash=e42b2ff4...,getBlockByNumberTimeCost=0,executeBlockTimeCost=0,commitBlockTimeCost=2,dropBlockTransTimeCost=0
+info|2019-10-25 20:40:17.836920|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download block execute,number=4,txs=1,hash=bbef426f...
+info|2019-10-25 20:40:17.836944|[g:1][BLOCKVERIFIER][executeBlock]Executing block,txNum=1,num=4,parentHash=e42b2ff4fab8a11e993c3457ce3a83f25c99bb480be959d96fd1133e2746eb64,parentNum=3,parentStateRoot=42c95e1bc11907a8a1bcda9536bb16334f108c2cc89a19c75f88e1adae3ec1a6
+info|2019-10-25 20:40:17.837453|[g:1][g:1][STORAGE][CachedStorage]CachedStorage commit: 6 hash: bbef426f972547649a4a37ea6f5ee8d93914abd51f67fbc242a769d7661f049e num: 4
+info|2019-10-25 20:40:17.837523|[STORAGE]Start commit block: 4 to backend storage
+info|2019-10-25 20:40:17.837752|[STORAGE][g:1]
+---------------------------------------------------------------------
+Commit block: 4 to backend storage finished, current cached block: 4
+Flush elapsed time: 0.0002s
+---------------------------------------------------------------------
+
+info|2019-10-25 20:40:17.837776|[g:1][STORAGE]Submited block task: 4, current syncd block: 4
+info|2019-10-25 20:40:17.838007|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=4,sealerIdx=3,hash=bbef426f...,next=5,tx=1,nodeIdx=65535
+info|2019-10-25 20:40:17.838066|[g:1]Push block notify: 1-4
+info|2019-10-25 20:40:17.838122|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download block commit succ,number=4,txs=1,hash=bbef426f...,getBlockByNumberTimeCost=0,executeBlockTimeCost=1,commitBlockTimeCost=1,dropBlockTransTimeCost=0
+info|2019-10-25 20:40:17.838528|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download block execute,number=5,txs=1,hash=a3532739...
+info|2019-10-25 20:40:17.838547|[g:1][BLOCKVERIFIER][executeBlock]Executing block,txNum=1,num=5,parentHash=bbef426f972547649a4a37ea6f5ee8d93914abd51f67fbc242a769d7661f049e,parentNum=4,parentStateRoot=8112f0a217d494299a99bbe080950701c19fe779919a86defca198671ebb1fb1
+info|2019-10-25 20:40:17.839197|[g:1][g:1][STORAGE][CachedStorage]CachedStorage commit: 6 hash: a35327390cb37fdef913afeeb433d02069aa7aeb3072ad6c77015aa043c26d20 num: 5
+info|2019-10-25 20:40:17.839270|[STORAGE]Start commit block: 5 to backend storage
+info|2019-10-25 20:40:17.839476|[STORAGE][g:1]
+---------------------------------------------------------------------
+Commit block: 5 to backend storage finished, current cached block: 5
+Flush elapsed time: 0.0002s
+---------------------------------------------------------------------
+
+info|2019-10-25 20:40:17.839502|[g:1][STORAGE]Submited block task: 5, current syncd block: 5
+info|2019-10-25 20:40:17.839699|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=5,sealerIdx=1,hash=a3532739...,next=6,tx=1,nodeIdx=65535
+info|2019-10-25 20:40:17.839757|[g:1]Push block notify: 1-5
+info|2019-10-25 20:40:17.839837|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download block commit succ,number=5,txs=1,hash=a3532739...,getBlockByNumberTimeCost=0,executeBlockTimeCost=0,commitBlockTimeCost=1,dropBlockTransTimeCost=0
+info|2019-10-25 20:40:17.840249|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download block execute,number=6,txs=1,hash=60d09709...
+info|2019-10-25 20:40:17.840267|[g:1][BLOCKVERIFIER][executeBlock]Executing block,txNum=1,num=6,parentHash=a35327390cb37fdef913afeeb433d02069aa7aeb3072ad6c77015aa043c26d20,parentNum=5,parentStateRoot=491b9200737de9a8c276311df31197e10aa057f48e144109454565513a856cc0
+info|2019-10-25 20:40:17.840679|[g:1][g:1][STORAGE][CachedStorage]CachedStorage commit: 6 hash: 60d0970954e7a775670d248ebb24e5da34a2f2127435ba0dca056ebc4ffec2fc num: 6
+info|2019-10-25 20:40:17.840781|[STORAGE]Start commit block: 6 to backend storage
+info|2019-10-25 20:40:17.841081|[STORAGE][g:1]
+---------------------------------------------------------------------
+Commit block: 6 to backend storage finished, current cached block: 6
+Flush elapsed time: 0.0003s
+---------------------------------------------------------------------
+
+info|2019-10-25 20:40:17.841108|[g:1][STORAGE]Submited block task: 6, current syncd block: 6
+info|2019-10-25 20:40:17.841312|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=6,sealerIdx=0,hash=60d09709...,next=7,tx=1,nodeIdx=1
+info|2019-10-25 20:40:17.841372|[g:1]Push block notify: 1-6
+info|2019-10-25 20:40:17.841429|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download block commit succ,number=6,txs=1,hash=60d09709...,getBlockByNumberTimeCost=0,executeBlockTimeCost=0,commitBlockTimeCost=1,dropBlockTransTimeCost=0
+info|2019-10-25 20:40:17.841503|[g:1][SYNC][id:6e4f3ba3...][Download][BlockSync]Download finish,latestHash=60d09709...,expectedHash=60d09709...
+info|2019-10-25 20:40:18.842751|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=7,tx=0,nodeIdx=1,hash=6bc1daae...
+info|2019-10-25 20:40:18.849552|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=0,toView=1,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.493
+info|2019-10-25 20:40:18.858210|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=0,org_changeCycle=0,cur_changeCycle=0,to_view=1
+info|2019-10-25 20:40:19.863805|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=2,hash=34f06e10...
+info|2019-10-25 20:40:19.864468|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=1,toView=2,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.421
+info|2019-10-25 20:40:19.868320|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=1,org_changeCycle=0,cur_changeCycle=0,to_view=2
+info|2019-10-25 20:40:20.874510|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=3,hash=a7ea24df...
+info|2019-10-25 20:40:20.875482|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=2,toView=3,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.627
+info|2019-10-25 20:40:20.880111|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=2,org_changeCycle=0,cur_changeCycle=0,to_view=3
+info|2019-10-25 20:40:21.883984|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=4,hash=cdff4984...
+info|2019-10-25 20:40:21.884677|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=3,toView=4,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.414
+info|2019-10-25 20:40:21.888860|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=3,org_changeCycle=0,cur_changeCycle=0,to_view=4
+info|2019-10-25 20:40:21.901044|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:40:22.892504|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=0,hash=7d2fff95...
+info|2019-10-25 20:40:22.893119|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=4,toView=5,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.432
+info|2019-10-25 20:40:22.897252|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=4,org_changeCycle=0,cur_changeCycle=0,to_view=5
+info|2019-10-25 20:40:23.898077|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=7,tx=0,nodeIdx=1,hash=dafc0b77...
+info|2019-10-25 20:40:23.902753|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=5,toView=6,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.193
+info|2019-10-25 20:40:23.903590|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=5,org_changeCycle=0,cur_changeCycle=0,to_view=6
+info|2019-10-25 20:40:24.910840|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=2,hash=dcb4f40b...
+info|2019-10-25 20:40:24.911418|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=6,toView=7,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.388
+info|2019-10-25 20:40:24.914848|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=6,org_changeCycle=0,cur_changeCycle=0,to_view=7
+info|2019-10-25 20:40:25.919015|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=3,hash=d8d22957...
+info|2019-10-25 20:40:25.919655|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=7,toView=8,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.416
+info|2019-10-25 20:40:25.923084|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=7,org_changeCycle=0,cur_changeCycle=0,to_view=8
+info|2019-10-25 20:40:26.927988|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=4,hash=c3d7d7c4...
+info|2019-10-25 20:40:26.928597|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=8,toView=9,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.412
+info|2019-10-25 20:40:26.932131|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=8,org_changeCycle=0,cur_changeCycle=0,to_view=9
+info|2019-10-25 20:40:27.937622|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=0,hash=c8f01d91...
+info|2019-10-25 20:40:27.938263|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=9,toView=10,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.419
+info|2019-10-25 20:40:27.942283|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=9,org_changeCycle=0,cur_changeCycle=0,to_view=10
+info|2019-10-25 20:40:28.942963|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=7,tx=0,nodeIdx=1,hash=62e8afe4...
+info|2019-10-25 20:40:28.946021|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=10,toView=11,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.233
+info|2019-10-25 20:40:28.949653|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=10,org_changeCycle=0,cur_changeCycle=0,to_view=11
+info|2019-10-25 20:40:29.956833|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=2,hash=6ea66462...
+info|2019-10-25 20:40:29.957448|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=11,toView=12,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.372
+info|2019-10-25 20:40:29.961645|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=11,org_changeCycle=0,cur_changeCycle=0,to_view=12
+info|2019-10-25 20:40:30.965632|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=3,hash=811dfef7...
+info|2019-10-25 20:40:30.966239|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=12,toView=13,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.398
+info|2019-10-25 20:40:30.970250|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=12,org_changeCycle=0,cur_changeCycle=0,to_view=13
+info|2019-10-25 20:40:31.901813|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:40:31.974751|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=4,hash=6a37704a...
+info|2019-10-25 20:40:31.975338|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=13,toView=14,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.362
+info|2019-10-25 20:40:31.979121|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=13,org_changeCycle=0,cur_changeCycle=0,to_view=14
+info|2019-10-25 20:40:32.984549|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=0,hash=3d07d11b...
+info|2019-10-25 20:40:32.984827|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=14,toView=15,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.196
+info|2019-10-25 20:40:32.990408|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=14,org_changeCycle=0,cur_changeCycle=0,to_view=15
+info|2019-10-25 20:40:33.990339|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=7,tx=0,nodeIdx=1,hash=45f9e7bc...
+info|2019-10-25 20:40:33.994436|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=15,toView=16,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.207
+info|2019-10-25 20:40:33.995585|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=15,org_changeCycle=0,cur_changeCycle=0,to_view=16
+info|2019-10-25 20:40:35.003377|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=2,hash=b11b7450...
+info|2019-10-25 20:40:35.003961|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=16,toView=17,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.367
+info|2019-10-25 20:40:35.008063|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=16,org_changeCycle=0,cur_changeCycle=0,to_view=17
+info|2019-10-25 20:40:36.013150|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=3,hash=d8051f44...
+info|2019-10-25 20:40:36.013735|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=17,toView=18,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.359
+info|2019-10-25 20:40:36.017529|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=17,org_changeCycle=0,cur_changeCycle=0,to_view=18
+info|2019-10-25 20:40:37.023593|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=4,hash=ab2e3beb...
+info|2019-10-25 20:40:37.024170|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=18,toView=19,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.406
+info|2019-10-25 20:40:37.033322|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=18,org_changeCycle=0,cur_changeCycle=0,to_view=19
+info|2019-10-25 20:40:38.035927|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=0,hash=8a2719b6...
+info|2019-10-25 20:40:38.036501|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=19,toView=20,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.392
+info|2019-10-25 20:40:38.041512|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=19,org_changeCycle=0,cur_changeCycle=0,to_view=20
+info|2019-10-25 20:40:39.042369|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=7,tx=0,nodeIdx=1,hash=6af76f42...
+info|2019-10-25 20:40:39.046559|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=20,toView=21,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.203
+info|2019-10-25 20:40:39.047639|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=20,org_changeCycle=0,cur_changeCycle=0,to_view=21
+info|2019-10-25 20:40:40.056272|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=2,hash=211b97f7...
+info|2019-10-25 20:40:40.056820|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=21,toView=22,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.352
+info|2019-10-25 20:40:40.060405|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=21,org_changeCycle=0,cur_changeCycle=0,to_view=22
+info|2019-10-25 20:40:41.065845|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=3,hash=0259b35f...
+info|2019-10-25 20:40:41.066471|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=22,toView=23,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.411
+info|2019-10-25 20:40:41.070469|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=22,org_changeCycle=0,cur_changeCycle=0,to_view=23
+info|2019-10-25 20:40:41.902671|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:40:42.075953|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=4,hash=79102fda...
+info|2019-10-25 20:40:42.077882|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=23,toView=24,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=1.338
+info|2019-10-25 20:40:42.087522|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=23,org_changeCycle=0,cur_changeCycle=0,to_view=24
+info|2019-10-25 20:40:43.091875|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=0,hash=1ef42fd9...
+info|2019-10-25 20:40:43.092469|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=24,toView=25,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.387
+info|2019-10-25 20:40:43.096611|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=24,org_changeCycle=0,cur_changeCycle=0,to_view=25
+info|2019-10-25 20:40:44.097322|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=7,tx=0,nodeIdx=1,hash=cf89358c...
+info|2019-10-25 20:40:44.105782|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=25,toView=26,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=3.245
+info|2019-10-25 20:40:44.112646|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=25,org_changeCycle=0,cur_changeCycle=0,to_view=26
+info|2019-10-25 20:40:45.120647|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=2,hash=b52c0e01...
+info|2019-10-25 20:40:45.121177|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=26,toView=27,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.346
+info|2019-10-25 20:40:45.126154|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=26,org_changeCycle=0,cur_changeCycle=0,to_view=27
+info|2019-10-25 20:40:46.129653|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=3,hash=944158e5...
+info|2019-10-25 20:40:46.130252|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=27,toView=28,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.407
+info|2019-10-25 20:40:46.134629|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=27,org_changeCycle=0,cur_changeCycle=0,to_view=28
+info|2019-10-25 20:40:47.138580|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=4,hash=2c9a302e...
+info|2019-10-25 20:40:47.139168|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=28,toView=29,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.404
+info|2019-10-25 20:40:47.144642|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=28,org_changeCycle=0,cur_changeCycle=0,to_view=29
+info|2019-10-25 20:40:48.147493|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=0,hash=a3477bd6...
+info|2019-10-25 20:40:48.148011|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=29,toView=30,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.342
+info|2019-10-25 20:40:48.151791|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=29,org_changeCycle=0,cur_changeCycle=0,to_view=30
+info|2019-10-25 20:40:49.151966|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=7,tx=0,nodeIdx=1,hash=46f9c82b...
+info|2019-10-25 20:40:49.156934|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=30,toView=31,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.244
+info|2019-10-25 20:40:49.158043|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=30,org_changeCycle=0,cur_changeCycle=0,to_view=31
+info|2019-10-25 20:40:50.164325|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=2,hash=e9a412ec...
+info|2019-10-25 20:40:50.164913|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=31,toView=32,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.394
+info|2019-10-25 20:40:50.168348|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=31,org_changeCycle=0,cur_changeCycle=0,to_view=32
+info|2019-10-25 20:40:51.173512|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=3,hash=22effdbe...
+info|2019-10-25 20:40:51.174132|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=32,toView=33,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.416
+info|2019-10-25 20:40:51.177982|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=32,org_changeCycle=0,cur_changeCycle=0,to_view=33
+info|2019-10-25 20:40:51.902790|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:40:52.183748|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=4,hash=b3e8503d...
+info|2019-10-25 20:40:52.185043|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=33,toView=34,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.918
+info|2019-10-25 20:40:52.193249|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=33,org_changeCycle=0,cur_changeCycle=0,to_view=34
+info|2019-10-25 20:40:53.200054|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=0,hash=44e8e67c...
+info|2019-10-25 20:40:53.200596|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=34,toView=35,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.354
+info|2019-10-25 20:40:53.204954|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=34,org_changeCycle=0,cur_changeCycle=0,to_view=35
+info|2019-10-25 20:40:54.205482|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=7,tx=0,nodeIdx=1,hash=4b2757c2...
+info|2019-10-25 20:40:54.210489|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=35,toView=36,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.24
+info|2019-10-25 20:40:54.211722|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=35,org_changeCycle=0,cur_changeCycle=0,to_view=36
+info|2019-10-25 20:40:55.218473|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=2,hash=fb1139c5...
+info|2019-10-25 20:40:55.218805|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=36,toView=37,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.195
+info|2019-10-25 20:40:55.222270|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=36,org_changeCycle=0,cur_changeCycle=0,to_view=37
+info|2019-10-25 20:40:56.227891|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=3,hash=d9eb21d0...
+info|2019-10-25 20:40:56.228532|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=37,toView=38,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.415
+info|2019-10-25 20:40:56.233259|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=37,org_changeCycle=0,cur_changeCycle=0,to_view=38
+info|2019-10-25 20:40:57.238877|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=4,hash=a112fbfc...
+info|2019-10-25 20:40:57.239775|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=38,toView=39,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.696
+info|2019-10-25 20:40:57.248206|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=38,org_changeCycle=0,cur_changeCycle=0,to_view=39
+info|2019-10-25 20:40:58.249090|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=0,hash=b5874917...
+info|2019-10-25 20:40:58.249673|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=39,toView=40,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.387
+info|2019-10-25 20:40:58.254711|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=39,org_changeCycle=0,cur_changeCycle=0,to_view=40
+info|2019-10-25 20:40:59.254553|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=7,tx=0,nodeIdx=1,hash=5d22a62b...
+info|2019-10-25 20:40:59.259858|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40,toView=41,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=0.229
+info|2019-10-25 20:40:59.260944|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40,org_changeCycle=0,cur_changeCycle=0,to_view=41
+info|2019-10-25 20:41:00.272544|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=2,hash=15e1c254...
+info|2019-10-25 20:41:00.274399|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=41,toView=42,nodeIdx=1,changeCycle=0,myNode=6e4f3ba3...,timecost=1.099
+info|2019-10-25 20:41:00.288681|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=41,org_changeCycle=0,cur_changeCycle=0,to_view=42
+info|2019-10-25 20:41:00.895005|[g:1][CONSENSUS]addRawPrepare,height=7,reqIdx=3,hash=0df80055...
+info|2019-10-25 20:41:00.895147|[g:1][BLOCKVERIFIER][executeBlock]Executing block,txNum=1,num=7,parentHash=60d0970954e7a775670d248ebb24e5da34a2f2127435ba0dca056ebc4ffec2fc,parentNum=6,parentStateRoot=0878945f8b38dac787053d01ca834c381984572e6d225bd0ccdb7fc18becdb2b
+info|2019-10-25 20:41:00.895418|[g:1][CONSENSUS][PBFT]execBlock,blkNum=7,reqIdx=3,hash=3779ba2c...,nodeIdx=1,myNode=6e4f3ba3...,decodeCost=0,checkCost=0,notifyCost=0,noteSealingCost=0,currentCycle=0,verifyAndSetSenderCost=0,execCost=0,execPerTx=0,totalCost=0
+info|2019-10-25 20:41:00.895769|[g:1][CONSENSUS][PBFT]handlePrepareMsg Succ,Timecost=0.989,INFO=handlePrepareMsg,reqIdx=3,view=42,reqNum=7,curNum=6,consNum=7,fromIp=127.0.0.1:30302,hash=0df80055...,nodeIdx=1,myNode=6e4f3ba3...,curChangeCycle=0
+info|2019-10-25 20:41:00.898808|[g:1][CONSENSUS][PBFT]handleSignMsg Succ,Timecost=0.222,INFO=handleSignMsg,num=7,curNum=6,GenIdx=0,Sview=42,view=42,fromIdx=0,fromNode=3c841dae...,fromIp=127.0.0.1:30301,hash=3779ba2c...,nodeIdx=1,myNode=6e4f3ba3...
+info|2019-10-25 20:41:00.901378|[g:1][CONSENSUS][PBFT]handleSignMsg Succ,Timecost=0.222,INFO=handleSignMsg,num=7,curNum=6,GenIdx=2,Sview=42,view=42,fromIdx=2,fromNode=6f997471...,fromIp=127.0.0.1:30300,hash=3779ba2c...,nodeIdx=1,myNode=6e4f3ba3...
+info|2019-10-25 20:41:00.904225|[g:1][CONSENSUS][PBFT]checkAndCommit: backup/updateCommittedPrepare,reqNum=7,hash=0df80055...,nodeIdx=1,myNode=6e4f3ba3...
+info|2019-10-25 20:41:00.904581|[g:1][CONSENSUS][PBFT]handleSignMsg Succ,Timecost=0.585,INFO=handleSignMsg,num=7,curNum=6,GenIdx=4,Sview=42,view=42,fromIdx=4,fromNode=9303553a...,fromIp=127.0.0.1:30303,hash=3779ba2c...,nodeIdx=1,myNode=6e4f3ba3...
+info|2019-10-25 20:41:00.906712|[g:1][CONSENSUS][PBFT]handleCommitMsg Succ,INFO=handleCommitMsg,reqNum=7,curNum=6,GenIdx=4,Cview=42,view=42,fromIdx=4,fromNode=9303553a...,fromIp=127.0.0.1:30303,hash=3779ba2c...,nodeIdx=1,myNode=6e4f3ba3...,Timecost=0.224
+info|2019-10-25 20:41:00.907451|[g:1][CONSENSUS][PBFT]handleCommitMsg Succ,INFO=handleCommitMsg,reqNum=7,curNum=6,GenIdx=0,Cview=42,view=42,fromIdx=0,fromNode=3c841dae...,fromIp=127.0.0.1:30301,hash=3779ba2c...,nodeIdx=1,myNode=6e4f3ba3...,Timecost=0.256
+info|2019-10-25 20:41:00.909629|[g:1][CONSENSUS][PBFT]checkAndSave: CommitReq enough,prepareHeight=7,commitSize=4,hash=3779ba2c...,nodeIdx=1,myNode=6e4f3ba3...
+info|2019-10-25 20:41:00.910001|[g:1][g:1][STORAGE][CachedStorage]CachedStorage commit: 6 hash: 3779ba2caeec1aecceee98e4e9d951809dc3676c6918573ceaaf69cc78649ba4 num: 7
+info|2019-10-25 20:41:00.910097|[STORAGE]Start commit block: 7 to backend storage
+info|2019-10-25 20:41:00.910417|[STORAGE][g:1]
+---------------------------------------------------------------------
+Commit block: 7 to backend storage finished, current cached block: 7
+Flush elapsed time: 0.0003s
+---------------------------------------------------------------------
+
+info|2019-10-25 20:41:00.910458|[g:1][STORAGE]Submited block task: 7, current syncd block: 7
+info|2019-10-25 20:41:00.910845|[g:1]Push block notify: 1-7
+info|2019-10-25 20:41:00.910985|[g:1][CONSENSUS][PBFT]CommitBlock Succ,prepareHeight=7,reqIdx=3,hash=3779ba2c...,nodeIdx=1,myNode=6e4f3ba3...,genSigTimeCost=0,commitBlockTimeCost=1,dropTxsTimeCost=0,noteSealingTimeCost=0,totalTimeCost=1
+info|2019-10-25 20:41:00.911010|[g:1][CONSENSUS][PBFT]handleCommitMsg Succ,INFO=handleCommitMsg,reqNum=7,curNum=6,GenIdx=2,Cview=42,view=42,fromIdx=2,fromNode=6f997471...,fromIp=127.0.0.1:30300,hash=3779ba2c...,nodeIdx=1,myNode=6e4f3ba3...,Timecost=1.603
+info|2019-10-25 20:41:00.911182|[g:1][CONSENSUS][SEALER]increase maxNoTimeoutTx,maxNoTimeoutTx=1
+info|2019-10-25 20:41:00.911190|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=7,sealerIdx=3,hash=3779ba2c...,next=8,tx=1,nodeIdx=65535
+info|2019-10-25 20:41:01.902936|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:41:11.903032|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:41:21.903122|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:41:31.903237|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:41:41.903537|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:41:51.903681|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:42:01.903749|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:42:11.903893|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:42:21.904173|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:42:31.905056|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:42:41.905698|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:42:51.905967|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:43:01.906956|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:43:11.907044|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:43:21.908095|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:43:31.908205|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:43:41.908284|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:43:41.963830|[NETWORK][Session]Received topic: [14] from 6f9974710b9ea562ecc6a6823039b05e159d8669f228efa0c8b8234f08c2b75fb97eecdae4ef16bc99800bdfa03ed03d619629887e9c1c8b46ad79f5d38c4991
+info|2019-10-25 20:43:51.908362|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:44:01.908453|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:44:11.908540|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:44:21.908623|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:44:31.908708|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:44:41.908787|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:44:51.908864|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:45:01.908963|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:45:11.909071|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:45:21.909200|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:45:31.909284|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:45:41.909458|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:45:51.909641|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:46:01.910651|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:46:11.910802|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:46:21.910957|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:46:31.911108|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:46:41.911227|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:46:51.911308|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:47:01.911542|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:47:11.911642|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:47:21.911718|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:47:31.911801|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:47:41.911874|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:47:51.911965|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:48:01.912068|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:48:11.913057|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:48:21.913187|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:48:31.913280|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:48:41.913904|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:48:51.913991|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:49:01.914076|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:49:11.914147|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:49:21.914228|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:49:31.914352|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:49:41.914533|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:49:51.914623|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:50:01.915204|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:50:11.915288|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:50:21.915382|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:50:31.915471|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:50:41.915658|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:50:51.916115|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:51:01.917060|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:51:11.917887|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:51:21.917968|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:51:31.918304|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:51:41.918380|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:51:51.918478|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:52:01.918644|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:52:11.918723|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:52:21.918903|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:52:31.919605|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:52:41.919733|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:52:51.919808|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:53:01.919882|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:53:11.920331|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:53:21.920406|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:53:31.920490|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:53:41.920814|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:53:51.920920|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:54:01.921008|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:54:11.921122|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:54:21.921200|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:54:31.921415|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:54:41.921525|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:54:51.921602|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:55:01.921756|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:55:11.921879|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:55:21.922806|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:55:31.923452|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:55:41.923551|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:55:51.923634|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:56:01.923717|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:56:11.923872|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:56:21.923992|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:56:31.924229|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:56:41.924311|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:56:51.924528|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:57:01.924622|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:57:11.924823|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:57:21.924940|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:57:31.925020|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:57:41.925107|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:57:51.925232|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:58:01.925536|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:58:11.925695|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:58:21.925770|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:58:31.925833|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:58:41.925938|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:58:51.926004|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:59:01.926346|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:59:11.926410|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:59:21.926491|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:59:31.927064|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:59:41.927174|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:59:51.927278|[P2P][Service] heartBeat,connected count=4
+info|2019-10-25 20:59:52.000715|[NETWORK][Session]Received topic: [15	_block_notify_1] from 6f9974710b9ea562ecc6a6823039b05e159d8669f228efa0c8b8234f08c2b75fb97eecdae4ef16bc99800bdfa03ed03d619629887e9c1c8b46ad79f5d38c4991

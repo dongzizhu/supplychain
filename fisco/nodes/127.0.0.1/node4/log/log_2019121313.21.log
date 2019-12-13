@@ -1,0 +1,285 @@
+info|2019-12-13 13:21:15.923890|[INITIALIZER][initGlobalConfig],enableCompress=true,compatibilityVersion=2.1.0,versionNumber=33619968,chainId=1
+info|2019-12-13 13:21:16.090190|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-12-13 13:21:16.090291|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-12-13 13:21:16.090334|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30302
+info|2019-12-13 13:21:16.090371|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30303
+info|2019-12-13 13:21:16.090408|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30304
+info|2019-12-13 13:21:16.090443|[P2P][Service] heartBeat,connected count=0
+info|2019-12-13 13:21:16.090872|[CHANNEL]ChannelRPCServer started
+info|2019-12-13 13:21:16.090890|[INITIALIZER][RPCInitializer]ChannelRPCHttpServer started.
+info|2019-12-13 13:21:16.090908|[LedgerInitializer],groupConfigPath=conf/
+info|2019-12-13 13:21:16.094522|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30304
+info|2019-12-13 13:21:16.095487|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-12-13 13:21:16.095548|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+info|2019-12-13 13:21:16.096380|[INITIALIZER][initSingleLedger] [GroupId]:  1
+info|2019-12-13 13:21:16.096408|[g:1][LEDGER]LedgerConstructor,configPath=conf/group.1.genesis,baseDir=data//group1
+info|2019-12-13 13:21:16.096422|[g:1][LEDGER][initGenesisConfig]initConsensusConfig/initDBConfig/initTxConfig,configFile=conf/group.1.genesis
+info|2019-12-13 13:21:16.096698|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30302
+info|2019-12-13 13:21:16.100290|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30303
+info|2019-12-13 13:21:16.100405|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30304
+info|2019-12-13 13:21:16.100768|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:58978
+info|2019-12-13 13:21:16.100816|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30304
+info|2019-12-13 13:21:16.102028|[g:1][LEDGER][initConsensusConfig],it.first=6f9974710b9ea562ecc6a6823039b05e159d8669f228efa0c8b8234f08c2b75fb97eecdae4ef16bc99800bdfa03ed03d619629887e9c1c8b46ad79f5d38c4991
+info|2019-12-13 13:21:16.102062|[g:1][LEDGER][initConsensusConfig],it.first=3c841dae42d67ff6c383c1bb1de35a240c03722517cf3711eacd8c8d1b168ac146b4580f67399b4d7d2a36358faea19bc9d7875a3160147b3b9c3c9eb331f80c
+info|2019-12-13 13:21:16.102168|[g:1][LEDGER][initConsensusConfig],it.first=7977f13736cfe14481107f9daa8a957d5156ba4f001285ee5d658512a97bedebf72a47213feba7cce05ecd2639f2426ad79a3abd436fe58d3eab1d37c47da13c
+info|2019-12-13 13:21:16.102194|[g:1][LEDGER][initConsensusConfig],it.first=9303553ad8ac45cce2b6dfa1efc53e16bad3db119e47da65b9656ed9be68073f3a68780aaf85b2d1545a93db9d541276a33bdd6f3bef1baab3c8c44880e1837a
+info|2019-12-13 13:21:16.102235|[g:1][LEDGER][initIniConfig]initTxPoolConfig/initSyncConfig/initTxExecuteConfig,configFile=conf/group.1.ini
+info|2019-12-13 13:21:16.103503|[g:1][LEDGER][initLedger][DBInitializer]
+info|2019-12-13 13:21:16.103530|[g:1][DBINITIALIZER] [initRocksDBStorage]
+info|2019-12-13 13:21:16.108020|[g:1][ROCKSDB]open rocksDB handler
+info|2019-12-13 13:21:16.188615|[NETWORK][Host]startPeerSession, From=127.0.0.1:58978,nodeID=6e4f3ba3...
+info|2019-12-13 13:21:16.196454|[g:1][g:0][STORAGE][CachedStorage]Init flushStorage thread
+info|2019-12-13 13:21:16.199701|[g:1][BLOCKCHAIN][#checkAndBuildGenesisBlock]Already have the 0th block, 0th groupMark is equal to file groupMark.
+info|2019-12-13 13:21:16.200560|[g:1][CONSENSUS][PBFT]Register handler for PBFTEngine
+info|2019-12-13 13:21:16.200591|[g:1][CONSENSUS][PBFT],minBlockGenerationTime=500
+info|2019-12-13 13:21:16.201320|[LedgerInitializer init group succ],groupID=1
+info|2019-12-13 13:21:16.201503|[INITIALIZER][RPCInitializer]JsonrpcHttpServer started.
+info|2019-12-13 13:21:16.201523|[g:1][LEDGER]startAll...
+info|2019-12-13 13:21:16.210490|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=7,sealerIdx=3,hash=3779ba2c...,next=8,tx=1,nodeIdx=65535
+info|2019-12-13 13:21:16.216567|[g:1][CONSENSUS][PBFT][PBFT init env successfully]
+info|2019-12-13 13:21:16.216591|[g:1][CONSENSUS][ConsensusEngine][Start ConsensusEngineBase]
+info|2019-12-13 13:21:16.220820|[g:1][CONSENSUS][PBFT][Start PBFTEngine...]
+info|2019-12-13 13:21:16.220831|[g:1][CONSENSUS][SEALER][Start sealer module]
+info|2019-12-13 13:21:16.233519|[g:1][EVENT][EventLogFilterManager]start,m_maxBlockRange=0,m_maxBlockPerLoopFilter=3
+info|2019-12-13 13:21:16.238313|[NETWORK][Host]startPeerSession, From=127.0.0.1:30304,nodeID=6e4f3ba3...
+info|2019-12-13 13:21:16.239490|[P2P][Service] Connection established,nodeID=9303553a...,endpoint=127.0.0.1:30303
+info|2019-12-13 13:21:16.239520|[NETWORK][Host]startPeerSession, From=127.0.0.1:30303,nodeID=9303553a...
+info|2019-12-13 13:21:16.279868|[P2P][Service] Connection established,nodeID=6f997471...,endpoint=127.0.0.1:30300
+info|2019-12-13 13:21:16.279921|[NETWORK][Host]startPeerSession, From=127.0.0.1:30300,nodeID=6f997471...
+info|2019-12-13 13:21:16.288158|[NETWORK][Host]startPeerSession, From=127.0.0.1:30301,nodeID=3c841dae...
+info|2019-12-13 13:21:16.288236|[P2P][Service] Connection established,nodeID=3c841dae...,endpoint=127.0.0.1:30301
+info|2019-12-13 13:21:16.292225|[NETWORK][Host]startPeerSession, From=127.0.0.1:30302,nodeID=7977f137...
+info|2019-12-13 13:21:16.292282|[P2P][Service] Connection established,nodeID=7977f137...,endpoint=127.0.0.1:30302
+info|2019-12-13 13:21:26.090547|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:21:36.091605|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:21:46.097008|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:21:56.097128|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:22:01.285887|[NETWORK][Session]Received topic: [2	_block_notify_1] from 6f9974710b9ea562ecc6a6823039b05e159d8669f228efa0c8b8234f08c2b75fb97eecdae4ef16bc99800bdfa03ed03d619629887e9c1c8b46ad79f5d38c4991
+info|2019-12-13 13:22:06.098174|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:22:16.098765|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:22:26.098830|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:22:36.098914|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:22:46.098992|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:22:56.099064|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:23:06.099145|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:23:16.099231|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:23:26.099411|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:23:36.099662|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:23:46.099774|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:23:56.099865|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:24:06.099950|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:24:16.100025|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:24:26.100487|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:24:36.100623|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:24:46.101086|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:24:56.101218|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:25:06.101615|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:25:16.101773|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:25:26.101860|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:25:36.101938|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:25:46.102015|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:25:56.102084|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:26:06.102174|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:26:16.102663|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:26:26.102739|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:26:36.103561|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:26:46.103776|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:26:56.104814|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:27:06.104886|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:27:16.104966|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:27:26.105496|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:27:36.105764|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:27:46.105834|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:27:56.105917|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:28:06.106015|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:28:16.106093|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:28:26.106167|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:28:36.106853|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:28:46.106931|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:28:56.108022|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:29:06.108166|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:29:16.108243|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:29:26.108649|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:29:36.108743|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:29:46.108835|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:29:56.108964|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:30:06.109060|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:30:16.109138|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:30:26.109213|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:30:36.109300|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:30:46.112187|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:30:56.112275|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:31:06.112373|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:31:16.112466|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:31:26.112547|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:31:36.112716|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:31:46.112803|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:31:56.112991|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:32:06.113063|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:32:16.113141|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:32:26.113219|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:32:36.113295|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:32:46.113397|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:32:56.113934|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:33:06.114259|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:33:16.114327|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:33:26.114417|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:33:36.114488|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:33:46.115832|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:33:56.115900|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:34:06.115980|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:34:16.116131|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:34:26.116272|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:34:36.116359|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:34:46.116823|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:34:56.116905|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:35:06.117291|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:35:16.117824|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:35:26.118861|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:35:36.119091|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:35:46.119668|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:35:56.120038|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:36:06.120477|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:36:16.120558|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:36:26.120975|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:36:36.121055|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:36:46.121132|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:36:56.121205|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:37:06.121279|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:37:16.121352|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:37:26.121467|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:37:36.121546|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:37:46.121613|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:37:56.121702|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:38:06.121777|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:38:16.121843|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:38:26.122133|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:38:36.122209|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:38:46.122286|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:38:56.122362|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:39:06.122453|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:39:16.122558|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:39:26.122658|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:39:36.122739|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:39:46.122887|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:39:56.123033|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:40:06.123131|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:40:16.123329|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:40:26.123584|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:40:36.123679|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:40:46.123789|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:40:56.124212|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:41:06.124318|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:41:16.124424|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:41:26.125081|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:41:36.125545|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:41:46.125845|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:41:56.125919|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:42:06.125997|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:42:16.126230|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:42:26.126597|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:42:36.126980|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:42:46.127053|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:42:56.127128|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:43:06.127205|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:43:16.127289|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:43:26.127374|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:43:36.127546|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:43:46.127630|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:43:56.127967|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:44:06.128059|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:44:16.128151|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:44:26.128801|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:44:36.128888|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:44:46.128981|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:44:56.129052|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:45:06.129130|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:45:16.129468|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:45:26.129590|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:45:36.129684|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:45:46.130639|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:45:56.131419|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:46:06.131481|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:46:16.131559|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:46:26.131684|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:46:36.131769|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:46:46.131839|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:46:56.131917|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:47:06.132762|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:47:16.132836|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:47:26.133126|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:47:36.133229|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:47:46.133770|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:47:56.133832|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:48:06.134588|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:48:16.134663|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:48:26.134734|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:48:36.134803|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:48:46.134871|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:48:56.134947|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:49:06.135024|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:49:16.135099|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:49:26.135254|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:49:36.135480|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:49:46.135735|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:49:56.136518|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:50:06.136607|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:50:16.136694|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:50:26.136766|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:50:36.136840|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:50:46.136925|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:50:56.137401|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:51:06.138754|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:51:16.138816|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:51:26.139014|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:51:36.139452|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:51:46.139542|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:51:56.140062|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:52:06.141123|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:52:16.141511|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:52:26.141624|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:52:36.145071|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:52:46.145185|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:52:56.145419|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:53:06.145512|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:53:16.145589|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:53:26.146432|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:53:36.147331|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:53:46.147707|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:53:56.147937|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:54:06.148175|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:54:16.148685|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:54:26.149195|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:54:36.152154|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:54:46.155740|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:54:56.155986|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:55:06.156063|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:55:16.156178|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:55:26.156267|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:55:36.156396|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:55:46.156472|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:55:56.156946|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:56:06.157149|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:56:16.157254|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:56:26.157334|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:56:36.157414|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:56:46.157492|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:56:56.157986|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:57:06.158466|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:57:16.158544|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:57:26.158620|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:57:36.158731|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:57:46.158808|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:57:56.159071|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:58:06.159411|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:58:16.159545|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:58:26.159637|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:58:36.159899|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:58:46.160176|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:58:56.160360|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:59:06.160449|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:59:16.160540|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:59:26.160699|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:59:36.160798|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:59:46.160886|[P2P][Service] heartBeat,connected count=4
+info|2019-12-13 13:59:56.160992|[P2P][Service] heartBeat,connected count=4

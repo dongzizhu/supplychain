@@ -1,0 +1,684 @@
+[INFO] [2019-10-25 15:07:38] AbstractApplicationContext.prepareRefresh(583) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11028347: startup date [Fri Oct 25 15:07:38 CST 2019]; root of context hierarchy
+[INFO] [2019-10-25 15:07:38] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2019-10-25 15:07:41] ChannelConnections.init(366) |  add connected node: 127.0.0.1:20200
+[INFO] [2019-10-25 15:07:41] ChannelConnections.reconnect(503) | try connect to: 127.0.0.1:20200
+[INFO] [2019-10-25 15:07:41] ConnectionCallback.onConnect(91) |  connect 127.0.0.1:20200 success, ctx: 1506204247
+[INFO] [2019-10-25 15:07:42] ConnectionCallback.queryNodeVersion(207) |  query node version host: 127.0.0.1:20200, seq: 730c0dfdf4d34d60a02842310150984d, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+[INFO] [2019-10-25 15:07:42] ConnectionCallback$2.onResponse(258) |  node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 15:07:42] ConnectionCallback$2.onResponse(267) |  support channel handshake node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 15:07:42] ConnectionCallback$1.onResponse(167) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.1.0, EnumProtocol=VERSION_2]
+[INFO] [2019-10-25 15:07:42] ConnectionCallback.subBlockNotification(338) |  send sub block notification request, seq: 9a09329ffdd94560aa0ba34c68fdede8, content: ["_block_notify_1"]
+[INFO] [2019-10-25 15:07:42] ConnectionCallback.queryBlockNumber(370) |  query block number host: 127.0.0.1:20200, seq: fae72246dc9649bb96467eeef39e0a90, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+[INFO] [2019-10-25 15:07:42] ConnectionCallback$4.onResponse(395) |  query blocknumer, host:127.0.0.1:20200, blockNumber: 0 
+[INFO] [2019-10-25 15:07:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:08:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:08:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:08:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:08:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:08:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:08:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:09:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:09:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:09:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:09:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:09:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:09:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:10:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:10:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:10:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:10:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:10:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:10:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:11:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:11:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:11:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:11:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:11:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:11:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:12:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:12:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:12:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:12:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:12:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:12:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:13:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:13:10] Async.run(19) |  default set setExeutor , pool size is 50
+[INFO] [2019-10-25 15:13:10] Async.setExeutor(81) |  set setExeutor because executor null, executor is java.util.concurrent.ThreadPoolExecutor@1494b84d[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+[INFO] [2019-10-25 15:13:10] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":1,"groupID":1}
+
+[INFO] [2019-10-25 15:13:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:13:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:13:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:13:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:13:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:14:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:14:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:14:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:14:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:14:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:14:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:15:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:15:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:15:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:15:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:15:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:15:49] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":2,"groupID":1}
+
+[INFO] [2019-10-25 15:15:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:16:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:16:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:16:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:16:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:16:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:16:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:17:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:17:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:17:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:17:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:17:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:17:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:18:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:18:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:18:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:18:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:18:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:18:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:19:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:19:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:19:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:19:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:19:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:19:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:20:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:20:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:20:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:20:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:20:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:23:03] AbstractApplicationContext.prepareRefresh(583) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11028347: startup date [Fri Oct 25 15:23:03 CST 2019]; root of context hierarchy
+[INFO] [2019-10-25 15:23:03] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2019-10-25 15:23:05] ChannelConnections.init(366) |  add connected node: 127.0.0.1:20200
+[INFO] [2019-10-25 15:23:05] ChannelConnections.reconnect(503) | try connect to: 127.0.0.1:20200
+[INFO] [2019-10-25 15:23:06] ConnectionCallback.onConnect(91) |  connect 127.0.0.1:20200 success, ctx: 556675035
+[INFO] [2019-10-25 15:23:06] ConnectionCallback.queryNodeVersion(207) |  query node version host: 127.0.0.1:20200, seq: f38a3779d7f34b0f9e776835d82ab611, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+[INFO] [2019-10-25 15:23:06] ConnectionCallback$2.onResponse(258) |  node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 15:23:06] ConnectionCallback$2.onResponse(267) |  support channel handshake node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 15:23:06] ConnectionCallback$1.onResponse(167) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.1.0, EnumProtocol=VERSION_2]
+[INFO] [2019-10-25 15:23:06] ConnectionCallback.subBlockNotification(338) |  send sub block notification request, seq: 0cd2805c32e847ada010c59e2d879e6b, content: ["_block_notify_1"]
+[INFO] [2019-10-25 15:23:06] ConnectionCallback.queryBlockNumber(370) |  query block number host: 127.0.0.1:20200, seq: 6d4f0a8b4c0d4d0ca4719152aa3e204e, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+[INFO] [2019-10-25 15:23:06] ConnectionCallback$4.onResponse(395) |  query blocknumer, host:127.0.0.1:20200, blockNumber: 2 
+[INFO] [2019-10-25 15:23:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:23:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:23:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:23:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:23:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:24:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:24:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:24:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:24:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:24:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:24:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:25:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:25:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:25:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:25:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:25:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:25:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:26:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:26:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:26:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:26:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:26:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:26:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:27:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:27:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:27:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:27:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:27:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:27:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:28:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:28:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:28:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:28:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:28:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:28:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:29:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:29:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:29:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:29:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:29:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:29:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:30:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:30:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:30:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:30:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:30:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:30:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:31:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:31:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:31:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:31:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:31:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:31:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:32:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:32:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:32:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:32:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:32:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:32:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:33:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:33:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:33:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:33:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:33:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:33:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:34:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:34:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:34:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:34:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:34:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:34:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:35:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:35:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:35:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:35:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:35:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:35:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:36:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:36:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:36:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:36:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:36:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:36:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:37:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:37:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:37:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:37:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:37:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:37:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:38:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:38:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:38:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:38:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:38:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:38:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:39:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:39:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:39:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:39:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:39:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:39:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:40:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:40:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:40:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:40:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:40:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:40:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:41:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:41:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:41:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:41:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:41:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:41:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:42:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:42:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:42:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:42:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:42:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:42:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:43:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:43:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:43:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:43:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:43:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:43:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:44:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:44:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:44:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:44:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:44:46] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:44:56] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:45:06] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:45:16] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:45:26] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:45:36] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:45:59] AbstractApplicationContext.prepareRefresh(583) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11028347: startup date [Fri Oct 25 15:45:59 CST 2019]; root of context hierarchy
+[INFO] [2019-10-25 15:45:59] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2019-10-25 15:46:01] ChannelConnections.init(366) |  add connected node: 127.0.0.1:20200
+[INFO] [2019-10-25 15:46:01] ChannelConnections.reconnect(503) | try connect to: 127.0.0.1:20200
+[INFO] [2019-10-25 15:46:02] ConnectionCallback.onConnect(91) |  connect 127.0.0.1:20200 success, ctx: 1506204247
+[INFO] [2019-10-25 15:46:02] ConnectionCallback.queryNodeVersion(207) |  query node version host: 127.0.0.1:20200, seq: ecfdcb571a2a4c429b7972029e421e73, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+[INFO] [2019-10-25 15:46:02] ConnectionCallback$2.onResponse(258) |  node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 15:46:02] ConnectionCallback$2.onResponse(267) |  support channel handshake node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 15:46:02] ConnectionCallback$1.onResponse(167) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.1.0, EnumProtocol=VERSION_2]
+[INFO] [2019-10-25 15:46:02] ConnectionCallback.subBlockNotification(338) |  send sub block notification request, seq: dd340738f1a3407fa895de4629c71652, content: ["_block_notify_1"]
+[INFO] [2019-10-25 15:46:03] ConnectionCallback.queryBlockNumber(370) |  query block number host: 127.0.0.1:20200, seq: 6979b728f1f34859827067f7d0f9fdf7, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+[INFO] [2019-10-25 15:46:03] ConnectionCallback$4.onResponse(395) |  query blocknumer, host:127.0.0.1:20200, blockNumber: 2 
+[INFO] [2019-10-25 15:46:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:46:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:46:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:46:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:46:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:47:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:47:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:47:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:47:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:47:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:47:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:48:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:48:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:48:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:48:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:48:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:48:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:49:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:49:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:49:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:49:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:49:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:49:53] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:50:03] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:50:13] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:50:23] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:50:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:50:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:50:53] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:51:03] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:51:13] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:51:23] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:51:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:51:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:51:53] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:52:03] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:52:13] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:52:23] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:52:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:52:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:52:53] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:53:03] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:53:13] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:53:23] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:53:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:53:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:53:53] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:54:03] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:54:13] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:54:23] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:54:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:54:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:54:53] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:55:03] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:55:13] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:55:23] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:55:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:55:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:55:53] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:56:03] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:56:29] AbstractApplicationContext.prepareRefresh(583) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11028347: startup date [Fri Oct 25 15:56:29 CST 2019]; root of context hierarchy
+[INFO] [2019-10-25 15:56:29] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2019-10-25 15:56:31] ChannelConnections.init(366) |  add connected node: 127.0.0.1:20200
+[INFO] [2019-10-25 15:56:32] ChannelConnections.reconnect(503) | try connect to: 127.0.0.1:20200
+[INFO] [2019-10-25 15:56:32] ConnectionCallback.onConnect(91) |  connect 127.0.0.1:20200 success, ctx: 1506204247
+[INFO] [2019-10-25 15:56:32] ConnectionCallback.queryNodeVersion(207) |  query node version host: 127.0.0.1:20200, seq: 72f9c50e8c8d49d2ae436fb67ddefa8f, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+[INFO] [2019-10-25 15:56:32] ConnectionCallback$2.onResponse(258) |  node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 15:56:32] ConnectionCallback$2.onResponse(267) |  support channel handshake node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 15:56:32] ConnectionCallback$1.onResponse(167) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.1.0, EnumProtocol=VERSION_2]
+[INFO] [2019-10-25 15:56:32] ConnectionCallback.subBlockNotification(338) |  send sub block notification request, seq: 09dfcff407b5436bb87f70c8b4aa3f1e, content: ["_block_notify_1"]
+[INFO] [2019-10-25 15:56:32] ConnectionCallback.queryBlockNumber(370) |  query block number host: 127.0.0.1:20200, seq: b1c42379fd974e8a9b3623fd6ff4c7be, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+[INFO] [2019-10-25 15:56:33] ConnectionCallback$4.onResponse(395) |  query blocknumer, host:127.0.0.1:20200, blockNumber: 2 
+[INFO] [2019-10-25 15:56:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:56:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:57:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:57:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:57:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:57:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:57:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:57:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:58:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:58:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:58:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:58:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:58:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:58:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:59:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:59:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:59:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:59:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:59:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 15:59:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:00:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:00:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:00:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:00:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:00:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:00:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:01:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:01:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:01:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:01:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:01:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:01:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:02:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:02:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:02:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:02:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:02:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:02:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:03:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:03:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:03:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:03:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:44:01] AbstractApplicationContext.prepareRefresh(583) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11028347: startup date [Fri Oct 25 16:44:01 CST 2019]; root of context hierarchy
+[INFO] [2019-10-25 16:44:01] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2019-10-25 16:44:03] ChannelConnections.init(366) |  add connected node: 127.0.0.1:20200
+[INFO] [2019-10-25 16:44:04] ChannelConnections.reconnect(503) | try connect to: 127.0.0.1:20200
+[INFO] [2019-10-25 16:44:04] ConnectionCallback.onConnect(91) |  connect 127.0.0.1:20200 success, ctx: 567480884
+[INFO] [2019-10-25 16:44:04] ConnectionCallback.queryNodeVersion(207) |  query node version host: 127.0.0.1:20200, seq: 2799a463f55c4399b23ef29bed7abdd2, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+[INFO] [2019-10-25 16:44:05] ConnectionCallback$2.onResponse(258) |  node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 16:44:05] ConnectionCallback$2.onResponse(267) |  support channel handshake node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 16:44:05] ConnectionCallback$1.onResponse(167) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.1.0, EnumProtocol=VERSION_2]
+[INFO] [2019-10-25 16:44:05] ConnectionCallback.subBlockNotification(338) |  send sub block notification request, seq: 14e1d121983b4b758a8d015d756667ba, content: ["_block_notify_1"]
+[INFO] [2019-10-25 16:44:05] ConnectionCallback.queryBlockNumber(370) |  query block number host: 127.0.0.1:20200, seq: bb301ba847c14d269ea90c950bbec54a, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+[INFO] [2019-10-25 16:44:05] ConnectionCallback$4.onResponse(395) |  query blocknumer, host:127.0.0.1:20200, blockNumber: 2 
+[INFO] [2019-10-25 16:44:15] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 16:44:18] Async.run(19) |  default set setExeutor , pool size is 50
+[INFO] [2019-10-25 16:44:18] Async.setExeutor(81) |  set setExeutor because executor null, executor is java.util.concurrent.ThreadPoolExecutor@7a0e1b5e[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+[INFO] [2019-10-25 16:44:18] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":3,"groupID":1}
+
+[INFO] [2019-10-25 16:44:25] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:23:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:23:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:23:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:23:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:23:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:23:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:24:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:24:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:24:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:24:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:24:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:24:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:25:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:25:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:25:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:25:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:25:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:25:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:26:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:26:04] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":4,"groupID":1}
+
+[INFO] [2019-10-25 17:26:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:26:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:26:26] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":5,"groupID":1}
+
+[INFO] [2019-10-25 17:26:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:26:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:26:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:27:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:27:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:27:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:27:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:27:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:27:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:28:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:28:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:28:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:28:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:28:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:28:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:29:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:29:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:29:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:29:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:29:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:29:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:30:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:30:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:30:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:30:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:30:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:30:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:31:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:31:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:31:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:31:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:31:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:31:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:32:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:32:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:32:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:32:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:32:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:32:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:33:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:33:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:33:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:33:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:33:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:33:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:34:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:34:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:34:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:34:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:34:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:34:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:35:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:35:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:35:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:35:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:35:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:35:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:36:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:36:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:36:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:36:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:36:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:36:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:37:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:37:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:37:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:37:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:37:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:37:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:38:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:38:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:38:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:38:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:38:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:38:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:39:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:39:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:39:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:39:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:39:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:39:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:40:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:40:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:40:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:40:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:40:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:40:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:41:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:41:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:41:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:41:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:41:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:41:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:42:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:42:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:42:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:42:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:42:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:42:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:43:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:43:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:43:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:43:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:43:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:43:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:44:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:44:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:44:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:44:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:44:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:44:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:45:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:45:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:45:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:45:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:45:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:45:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:46:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:46:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:46:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:46:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:46:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:46:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:47:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:47:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:47:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:47:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:47:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:47:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:48:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:48:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:48:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:48:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:48:42] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:48:52] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:49:02] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:49:12] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:49:22] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 17:49:32] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:34:09] AbstractApplicationContext.prepareRefresh(583) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11028347: startup date [Fri Oct 25 20:34:09 CST 2019]; root of context hierarchy
+[INFO] [2019-10-25 20:34:09] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2019-10-25 20:34:11] ChannelConnections.init(366) |  add connected node: 127.0.0.1:20200
+[INFO] [2019-10-25 20:34:12] ChannelConnections.reconnect(503) | try connect to: 127.0.0.1:20200
+[INFO] [2019-10-25 20:34:12] ConnectionCallback.onConnect(91) |  connect 127.0.0.1:20200 success, ctx: 1506204247
+[INFO] [2019-10-25 20:34:12] ConnectionCallback.queryNodeVersion(207) |  query node version host: 127.0.0.1:20200, seq: 51cd058ac5834067af938e498a7243f3, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+[INFO] [2019-10-25 20:34:12] ConnectionCallback$2.onResponse(258) |  node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 20:34:12] ConnectionCallback$2.onResponse(267) |  support channel handshake node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 20:34:12] ConnectionCallback$1.onResponse(167) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.1.0, EnumProtocol=VERSION_2]
+[INFO] [2019-10-25 20:34:13] ConnectionCallback.subBlockNotification(338) |  send sub block notification request, seq: e04e7b440c634fd78afac4b4e4784f8a, content: ["_block_notify_1"]
+[INFO] [2019-10-25 20:34:13] ConnectionCallback.queryBlockNumber(370) |  query block number host: 127.0.0.1:20200, seq: 888651e29179482b860775bf2a40b2f4, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+[INFO] [2019-10-25 20:34:13] ConnectionCallback$4.onResponse(395) |  query blocknumer, host:127.0.0.1:20200, blockNumber: 5 
+[INFO] [2019-10-25 20:34:23] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:34:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:34:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:34:53] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:35:03] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:35:13] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:35:23] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:35:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:35:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:35:53] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:36:03] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:36:13] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:36:23] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:36:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:36:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:36:53] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:37:03] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:37:13] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:37:23] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:37:33] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:37:43] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:38:58] AbstractApplicationContext.prepareRefresh(583) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11028347: startup date [Fri Oct 25 20:38:58 CST 2019]; root of context hierarchy
+[INFO] [2019-10-25 20:38:58] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2019-10-25 20:39:00] ChannelConnections.init(366) |  add connected node: 127.0.0.1:20200
+[INFO] [2019-10-25 20:39:00] ChannelConnections.reconnect(503) | try connect to: 127.0.0.1:20200
+[INFO] [2019-10-25 20:39:01] ConnectionCallback.onConnect(91) |  connect 127.0.0.1:20200 success, ctx: 567480884
+[INFO] [2019-10-25 20:39:01] ConnectionCallback.queryNodeVersion(207) |  query node version host: 127.0.0.1:20200, seq: 56b9d906e7cc42a89894fca774405280, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+[INFO] [2019-10-25 20:39:01] ConnectionCallback$2.onResponse(258) |  node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 20:39:01] ConnectionCallback$2.onResponse(267) |  support channel handshake node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 20:39:01] ConnectionCallback$1.onResponse(167) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.1.0, EnumProtocol=VERSION_2]
+[INFO] [2019-10-25 20:39:01] ConnectionCallback.subBlockNotification(338) |  send sub block notification request, seq: 214131e8a54b404096f8095d198396ec, content: ["_block_notify_1"]
+[INFO] [2019-10-25 20:39:01] ConnectionCallback.queryBlockNumber(370) |  query block number host: 127.0.0.1:20200, seq: ec7a81f546544677ab530fbd3f788bbe, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+[INFO] [2019-10-25 20:39:01] ConnectionCallback$4.onResponse(395) |  query blocknumer, host:127.0.0.1:20200, blockNumber: 5 
+[INFO] [2019-10-25 20:39:11] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:39:21] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:39:31] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:39:41] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:39:51] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:40:01] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:40:11] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:40:17] Async.run(19) |  default set setExeutor , pool size is 50
+[INFO] [2019-10-25 20:40:17] Async.setExeutor(81) |  set setExeutor because executor null, executor is java.util.concurrent.ThreadPoolExecutor@324a0017[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+[INFO] [2019-10-25 20:40:17] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":6,"groupID":1}
+
+[INFO] [2019-10-25 20:40:21] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:40:31] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:40:41] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:40:51] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:41:00] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":7,"groupID":1}
+
+[INFO] [2019-10-25 20:41:01] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:41:11] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:41:21] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:41:31] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:41:41] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:41:47] Service.onReceiveBlockNotify(1316) | Receive block notify: {"blockNumber":8,"groupID":1}
+
+[INFO] [2019-10-25 20:41:51] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:42:01] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:42:11] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:42:21] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:42:31] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:42:41] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:42:51] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:43:01] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:43:11] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:43:21] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:43:31] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 20:59:47] AbstractApplicationContext.prepareRefresh(583) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11028347: startup date [Fri Oct 25 20:59:47 CST 2019]; root of context hierarchy
+[INFO] [2019-10-25 20:59:48] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2019-10-25 20:59:50] ChannelConnections.init(366) |  add connected node: 127.0.0.1:20200
+[INFO] [2019-10-25 20:59:50] ChannelConnections.reconnect(503) | try connect to: 127.0.0.1:20200
+[INFO] [2019-10-25 20:59:50] ConnectionCallback.onConnect(91) |  connect 127.0.0.1:20200 success, ctx: 1506204247
+[INFO] [2019-10-25 20:59:51] ConnectionCallback.queryNodeVersion(207) |  query node version host: 127.0.0.1:20200, seq: d0b9d746a75e40e18941e42c11570197, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+[INFO] [2019-10-25 20:59:51] ConnectionCallback$2.onResponse(258) |  node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 20:59:51] ConnectionCallback$2.onResponse(267) |  support channel handshake node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 20:59:51] ConnectionCallback$1.onResponse(167) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.1.0, EnumProtocol=VERSION_2]
+[INFO] [2019-10-25 20:59:51] ConnectionCallback.subBlockNotification(338) |  send sub block notification request, seq: 226a71bff50a4a69ac38134c8e9ec567, content: ["_block_notify_1"]
+[INFO] [2019-10-25 20:59:51] ConnectionCallback.queryBlockNumber(370) |  query block number host: 127.0.0.1:20200, seq: 1e609c51fc3a4c30b6cc557f6879ad86, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+[INFO] [2019-10-25 20:59:51] ConnectionCallback$4.onResponse(395) |  query blocknumer, host:127.0.0.1:20200, blockNumber: 8 
+[INFO] [2019-10-25 21:00:01] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 21:00:11] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 21:00:21] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 21:00:31] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 21:00:41] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 21:00:51] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 21:01:01] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 21:01:11] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 21:19:10] AbstractApplicationContext.prepareRefresh(583) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11028347: startup date [Fri Oct 25 21:19:10 CST 2019]; root of context hierarchy
+[INFO] [2019-10-25 21:19:10] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2019-10-25 21:19:13] ChannelConnections.init(366) |  add connected node: 127.0.0.1:20200
+[INFO] [2019-10-25 21:19:13] ChannelConnections.reconnect(503) | try connect to: 127.0.0.1:20200
+[INFO] [2019-10-25 21:19:13] ConnectionCallback.onConnect(91) |  connect 127.0.0.1:20200 success, ctx: 1094520274
+[INFO] [2019-10-25 21:19:14] ConnectionCallback.queryNodeVersion(207) |  query node version host: 127.0.0.1:20200, seq: d85958e8d253437ba9e7523d33dc6dc7, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+[INFO] [2019-10-25 21:19:14] ConnectionCallback$2.onResponse(258) |  node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 21:19:14] ConnectionCallback$2.onResponse(267) |  support channel handshake node: Version [buildTime=20190923 13:22:09, buildType=Linux/clang/Release, chainID=1, version=2.1.0, gitBranch=HEAD, gitCommit=cb68124d4fbf3df563a57dfff5f0c6eedc1419cc, supportedVersion=2.1.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20190923 13:22:09","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.1.0","Git Branch":"HEAD","Git Commit Hash":"cb68124d4fbf3df563a57dfff5f0c6eedc1419cc","Supported Version":"2.1.0"}}
+
+[INFO] [2019-10-25 21:19:14] ConnectionCallback$1.onResponse(167) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.1.0, EnumProtocol=VERSION_2]
+[INFO] [2019-10-25 21:19:14] ConnectionCallback.subBlockNotification(338) |  send sub block notification request, seq: 0d7d25c6d08f4a5fb009c7c445642abf, content: ["_block_notify_1"]
+[INFO] [2019-10-25 21:19:14] ConnectionCallback.queryBlockNumber(370) |  query block number host: 127.0.0.1:20200, seq: 93edc65fda0f4a708de01c003d7eb7a3, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+[INFO] [2019-10-25 21:19:14] ConnectionCallback$4.onResponse(395) |  query blocknumer, host:127.0.0.1:20200, blockNumber: 8 
+[INFO] [2019-10-25 21:19:24] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 21:19:34] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0
+[INFO] [2019-10-25 21:19:44] EventLogFilterManager$1.run(154) |  event filter manager, filter: 0, callback: 0

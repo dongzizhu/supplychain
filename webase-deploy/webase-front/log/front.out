@@ -1,0 +1,338 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Nov 12, 2019 6:04:02 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Nov 12, 2019 6:04:02 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.23
+Nov 12, 2019 6:04:03 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Nov 12, 2019 6:04:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5002"]
+Nov 12, 2019 6:04:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5002"]
+Nov 12, 2019 6:04:17 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Nov 12, 2019 6:43:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Nov 12, 2019 6:43:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.23
+Nov 12, 2019 6:43:08 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Nov 12, 2019 6:43:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5002"]
+Nov 12, 2019 6:43:24 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5002"]
+Nov 12, 2019 6:43:24 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Nov 13, 2019 5:17:04 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Nov 13, 2019 5:17:04 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.23
+Nov 13, 2019 5:17:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Nov 13, 2019 5:17:25 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5002"]
+Nov 13, 2019 5:17:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5002"]
+Nov 13, 2019 5:17:25 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Nov 13, 2019 5:18:48 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcherServlet'
+****8
+****8
+****8
+****8
+****8
+****8
+****8
+****8
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Nov 13, 2019 8:43:02 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Nov 13, 2019 8:43:02 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.23
+Nov 13, 2019 8:43:02 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Nov 13, 2019 8:43:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5002"]
+Nov 13, 2019 8:43:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5002"]
+Nov 13, 2019 8:43:18 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Nov 13, 2019 8:43:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Nov 15, 2019 2:23:06 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Nov 15, 2019 2:23:06 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.23
+Nov 15, 2019 2:23:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Nov 15, 2019 2:23:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5002"]
+Nov 15, 2019 2:23:21 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5002"]
+Nov 15, 2019 2:23:21 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Nov 15, 2019 2:23:25 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcherServlet'
+****8
+****10
+****10
+****11
+****12
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Nov 15, 2019 4:17:29 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Nov 15, 2019 4:17:29 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.23
+Nov 15, 2019 4:17:30 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Nov 15, 2019 4:18:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5002"]
+Nov 15, 2019 4:18:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5002"]
+Nov 15, 2019 4:18:07 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Nov 15, 2019 4:18:20 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Nov 15, 2019 7:15:58 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Nov 15, 2019 7:15:58 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.23
+Nov 15, 2019 7:15:58 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Nov 15, 2019 7:16:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5002"]
+Nov 15, 2019 7:16:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5002"]
+Nov 15, 2019 7:16:16 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Nov 15, 2019 7:16:17 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcherServlet'
+****14
+****14
+****15
+****16
+****17
+****18
+****19
+****20
+****21
+****22
+****23
+****25
+****25
+****26
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Dec 12, 2019 5:39:25 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Dec 12, 2019 5:39:25 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.23
+Dec 12, 2019 5:39:25 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Dec 12, 2019 5:39:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5002"]
+Dec 12, 2019 5:39:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5002"]
+Dec 12, 2019 5:39:45 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Dec 12, 2019 5:40:14 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcherServlet'
+****27
+****28
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Dec 12, 2019 8:57:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Dec 12, 2019 8:57:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.23
+Dec 12, 2019 8:57:46 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Dec 12, 2019 8:58:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5002"]
+Dec 12, 2019 8:58:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5002"]
+Dec 12, 2019 8:58:02 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Dec 12, 2019 8:58:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcherServlet'
+****30
+****30
+****31
+****31
+****33
+****33
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Dec 13, 2019 9:26:36 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Dec 13, 2019 9:26:36 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.23
+Dec 13, 2019 9:26:36 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Dec 13, 2019 9:26:54 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5002"]
+Dec 13, 2019 9:26:54 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5002"]
+Dec 13, 2019 9:26:54 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Dec 13, 2019 9:26:56 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Dec 13, 2019 1:21:49 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Dec 13, 2019 1:21:49 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.23
+Dec 13, 2019 1:21:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Dec 13, 2019 1:22:06 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5002"]
+Dec 13, 2019 1:22:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5002"]
+Dec 13, 2019 1:22:06 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Dec 13, 2019 1:22:10 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Dec 13, 2019 3:40:36 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Dec 13, 2019 3:40:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.23
+Dec 13, 2019 3:40:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+Dec 13, 2019 3:40:53 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-5002"]
+Dec 13, 2019 3:40:54 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-5002"]
+Dec 13, 2019 3:40:54 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Dec 13, 2019 3:41:20 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcherServlet'
+****34
+****35
+****37
+****37
+****38
+****39
+****40
+****41
+****42
+****43
+****44
+****45
+****46
+****47
+****49
+****49
+****50
+****52
+****52
+****53
+****54
+****55
+****56
+****57
+****58
+****59
+****61
+****61
+****62
+****64
+****64

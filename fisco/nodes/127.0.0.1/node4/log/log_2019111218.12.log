@@ -1,0 +1,137 @@
+info|2019-11-12 18:12:50.396192|[INITIALIZER][initGlobalConfig],enableCompress=true,compatibilityVersion=2.1.0,versionNumber=33619968,chainId=1
+info|2019-11-12 18:12:50.474586|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-11-12 18:12:50.475681|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-11-12 18:12:50.476555|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30302
+info|2019-11-12 18:12:50.476601|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30303
+info|2019-11-12 18:12:50.476639|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30304
+info|2019-11-12 18:12:50.476676|[P2P][Service] heartBeat,connected count=0
+info|2019-11-12 18:12:50.477166|[CHANNEL]ChannelRPCServer started
+info|2019-11-12 18:12:50.477209|[INITIALIZER][RPCInitializer]ChannelRPCHttpServer started.
+info|2019-11-12 18:12:50.477235|[LedgerInitializer],groupConfigPath=conf/
+info|2019-11-12 18:12:50.484568|[INITIALIZER][initSingleLedger] [GroupId]:  1
+info|2019-11-12 18:12:50.484606|[g:1][LEDGER]LedgerConstructor,configPath=conf/group.1.genesis,baseDir=data//group1
+info|2019-11-12 18:12:50.484623|[g:1][LEDGER][initGenesisConfig]initConsensusConfig/initDBConfig/initTxConfig,configFile=conf/group.1.genesis
+info|2019-11-12 18:12:50.484707|[g:1][LEDGER][initConsensusConfig],it.first=6f9974710b9ea562ecc6a6823039b05e159d8669f228efa0c8b8234f08c2b75fb97eecdae4ef16bc99800bdfa03ed03d619629887e9c1c8b46ad79f5d38c4991
+info|2019-11-12 18:12:50.484733|[g:1][LEDGER][initConsensusConfig],it.first=3c841dae42d67ff6c383c1bb1de35a240c03722517cf3711eacd8c8d1b168ac146b4580f67399b4d7d2a36358faea19bc9d7875a3160147b3b9c3c9eb331f80c
+info|2019-11-12 18:12:50.484756|[g:1][LEDGER][initConsensusConfig],it.first=7977f13736cfe14481107f9daa8a957d5156ba4f001285ee5d658512a97bedebf72a47213feba7cce05ecd2639f2426ad79a3abd436fe58d3eab1d37c47da13c
+info|2019-11-12 18:12:50.484778|[g:1][LEDGER][initConsensusConfig],it.first=9303553ad8ac45cce2b6dfa1efc53e16bad3db119e47da65b9656ed9be68073f3a68780aaf85b2d1545a93db9d541276a33bdd6f3bef1baab3c8c44880e1837a
+info|2019-11-12 18:12:50.484821|[g:1][LEDGER][initIniConfig]initTxPoolConfig/initSyncConfig/initTxExecuteConfig,configFile=conf/group.1.ini
+info|2019-11-12 18:12:50.485256|[g:1][LEDGER][initLedger][DBInitializer]
+info|2019-11-12 18:12:50.485804|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30304
+info|2019-11-12 18:12:50.486926|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-11-12 18:12:50.487166|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+info|2019-11-12 18:12:50.487219|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30302
+info|2019-11-12 18:12:50.487264|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30303
+info|2019-11-12 18:12:50.487309|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30304
+info|2019-11-12 18:12:50.489280|[g:1][DBINITIALIZER] [initRocksDBStorage]
+info|2019-11-12 18:12:50.492759|[g:1][ROCKSDB]open rocksDB handler
+info|2019-11-12 18:12:50.495685|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:59784
+info|2019-11-12 18:12:50.502004|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30304
+info|2019-11-12 18:12:50.540181|[g:1][g:0][STORAGE][CachedStorage]Init flushStorage thread
+info|2019-11-12 18:12:50.545245|[g:1][BLOCKCHAIN][#checkAndBuildGenesisBlock]Already have the 0th block, 0th groupMark is equal to file groupMark.
+info|2019-11-12 18:12:50.547827|[g:1][CONSENSUS][PBFT]Register handler for PBFTEngine
+info|2019-11-12 18:12:50.551793|[g:1][CONSENSUS][PBFT],minBlockGenerationTime=500
+info|2019-11-12 18:12:50.551835|[LedgerInitializer init group succ],groupID=1
+info|2019-11-12 18:12:50.552007|[INITIALIZER][RPCInitializer]JsonrpcHttpServer started.
+info|2019-11-12 18:12:50.552027|[g:1][LEDGER]startAll...
+info|2019-11-12 18:12:50.555763|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=7,sealerIdx=3,hash=3779ba2c...,next=8,tx=1,nodeIdx=65535
+info|2019-11-12 18:12:50.563694|[g:1][CONSENSUS][PBFT][PBFT init env successfully]
+info|2019-11-12 18:12:50.563703|[g:1][CONSENSUS][ConsensusEngine][Start ConsensusEngineBase]
+info|2019-11-12 18:12:50.567229|[g:1][CONSENSUS][PBFT][Start PBFTEngine...]
+info|2019-11-12 18:12:50.567238|[g:1][CONSENSUS][SEALER][Start sealer module]
+info|2019-11-12 18:12:50.571028|[g:1][EVENT][EventLogFilterManager]start,m_maxBlockRange=0,m_maxBlockPerLoopFilter=3
+warning|2019-11-12 18:12:50.577150|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30300,errorValue=67567754,message=invalid padding
+warning|2019-11-12 18:12:50.581165|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30301,errorValue=67567754,message=invalid padding
+info|2019-11-12 18:12:50.647073|[NETWORK][Host]startPeerSession, From=127.0.0.1:59784,nodeID=6e4f3ba3...
+info|2019-11-12 18:12:50.651949|[NETWORK][Host]startPeerSession, From=127.0.0.1:30304,nodeID=6e4f3ba3...
+info|2019-11-12 18:12:50.652144|[P2P][Service] Connection established,nodeID=9303553a...,endpoint=127.0.0.1:30303
+info|2019-11-12 18:12:50.652172|[NETWORK][Host]startPeerSession, From=127.0.0.1:30303,nodeID=9303553a...
+info|2019-11-12 18:12:50.665091|[NETWORK][Host]startPeerSession, From=127.0.0.1:30302,nodeID=7977f137...
+info|2019-11-12 18:12:50.665162|[P2P][Service] Connection established,nodeID=7977f137...,endpoint=127.0.0.1:30302
+info|2019-11-12 18:13:00.480698|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-11-12 18:13:00.480738|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-11-12 18:13:00.480762|[P2P][Service] heartBeat,connected count=2
+info|2019-11-12 18:13:00.481033|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-11-12 18:13:00.481070|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+warning|2019-11-12 18:13:00.485145|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30300,errorValue=67567754,message=invalid padding
+warning|2019-11-12 18:13:00.486376|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30301,errorValue=67567754,message=invalid padding
+info|2019-11-12 18:13:10.481821|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-11-12 18:13:10.481856|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-11-12 18:13:10.481883|[P2P][Service] heartBeat,connected count=2
+info|2019-11-12 18:13:10.482043|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-11-12 18:13:10.482079|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+warning|2019-11-12 18:13:10.485530|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30300,errorValue=67567754,message=invalid padding
+warning|2019-11-12 18:13:10.486970|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30301,errorValue=67567754,message=invalid padding
+info|2019-11-12 18:13:20.482312|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-11-12 18:13:20.482373|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-11-12 18:13:20.482419|[P2P][Service] heartBeat,connected count=2
+info|2019-11-12 18:13:20.482709|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-11-12 18:13:20.482775|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+warning|2019-11-12 18:13:20.493279|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30301,errorValue=67567754,message=invalid padding
+warning|2019-11-12 18:13:20.494046|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30300,errorValue=67567754,message=invalid padding
+info|2019-11-12 18:13:30.482851|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-11-12 18:13:30.482886|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-11-12 18:13:30.482912|[P2P][Service] heartBeat,connected count=2
+info|2019-11-12 18:13:30.482992|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-11-12 18:13:30.483022|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+warning|2019-11-12 18:13:30.490386|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30301,errorValue=67567754,message=invalid padding
+warning|2019-11-12 18:13:30.491649|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30300,errorValue=67567754,message=invalid padding
+info|2019-11-12 18:13:40.483729|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-11-12 18:13:40.483770|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-11-12 18:13:40.483800|[P2P][Service] heartBeat,connected count=2
+info|2019-11-12 18:13:40.483901|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-11-12 18:13:40.483938|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+warning|2019-11-12 18:13:40.491553|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30300,errorValue=67567754,message=invalid padding
+warning|2019-11-12 18:13:40.493707|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30301,errorValue=67567754,message=invalid padding
+info|2019-11-12 18:13:50.484646|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-11-12 18:13:50.484682|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-11-12 18:13:50.484708|[P2P][Service] heartBeat,connected count=2
+info|2019-11-12 18:13:50.484787|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-11-12 18:13:50.484817|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+warning|2019-11-12 18:13:50.491854|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30301,errorValue=67567754,message=invalid padding
+warning|2019-11-12 18:13:50.492359|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30300,errorValue=67567754,message=invalid padding
+info|2019-11-12 18:14:00.485335|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-11-12 18:14:00.485371|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-11-12 18:14:00.485397|[P2P][Service] heartBeat,connected count=2
+info|2019-11-12 18:14:00.485480|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-11-12 18:14:00.485511|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+warning|2019-11-12 18:14:00.491357|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30301,errorValue=67567754,message=invalid padding
+warning|2019-11-12 18:14:00.492547|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30300,errorValue=67567754,message=invalid padding
+info|2019-11-12 18:14:10.485763|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-11-12 18:14:10.485799|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-11-12 18:14:10.485824|[P2P][Service] heartBeat,connected count=2
+info|2019-11-12 18:14:10.485907|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-11-12 18:14:10.485938|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+warning|2019-11-12 18:14:10.492554|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30301,errorValue=67567754,message=invalid padding
+warning|2019-11-12 18:14:10.493084|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30300,errorValue=67567754,message=invalid padding
+info|2019-11-12 18:14:20.486845|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2019-11-12 18:14:20.486881|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2019-11-12 18:14:20.486907|[P2P][Service] heartBeat,connected count=2
+info|2019-11-12 18:14:20.487001|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2019-11-12 18:14:20.487033|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+warning|2019-11-12 18:14:20.490708|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30301,errorValue=67567754,message=invalid padding
+warning|2019-11-12 18:14:20.492888|[NETWORK][Host]handshakeClient failed,endpoint=127.0.0.1:30300,errorValue=67567754,message=invalid padding
+info|2019-11-12 18:14:25.830589|[LEDGER]stop sealer,groupID=1
+info|2019-11-12 18:14:25.830602|[CONSENSUS][SEALER]Stop sealer module...
+info|2019-11-12 18:14:25.836185|[CONSENSUS][ConsensusEngine][Stop ConsensusEngineBase]
+info|2019-11-12 18:14:25.841592|[CONSENSUS][ConsensusEngine]ConsensusEngineBase stopped
+info|2019-11-12 18:14:25.841602|[LEDGER]sealer stopped. stop sync,groupID=1
+info|2019-11-12 18:14:25.914609|[SYNC][id:6e4f3ba3...]SyncMaster stopped
+info|2019-11-12 18:14:25.914630|[LEDGER]ledger stopped,groupID=1
+info|2019-11-12 18:14:25.966361|[EVENT][EventLogFilterManager]stop
+info|2019-11-12 18:14:25.966371|[LEDGER]event filter manager stopped,groupID=1
+info|2019-11-12 18:14:25.966378|[INITIALIZER]ledgerInitializer stopped
+info|2019-11-12 18:14:26.966563|[INITIALIZER]ChannelRPCHttpServer deleted.
+info|2019-11-12 18:14:26.967326|[INITIALIZER]JsonrpcHttpServer deleted.
+info|2019-11-12 18:14:26.967335|[INITIALIZER]RPCInitializer stopped
+info|2019-11-12 18:14:26.967355|[NETWORK][Host]Host exit
+info|2019-11-12 18:14:26.967976|[INITIALIZER]P2PInitializer stopped
+info|2019-11-12 18:14:26.967987|[LEDGER]stop sealer,groupID=1
+info|2019-11-12 18:14:26.967992|[LEDGER]sealer stopped. stop sync,groupID=1
+info|2019-11-12 18:14:26.967996|[SYNC][id:6e4f3ba3...]SyncMaster stopped
+info|2019-11-12 18:14:26.967999|[LEDGER]ledger stopped,groupID=1
+info|2019-11-12 18:14:26.968003|[LEDGER]event filter manager stopped,groupID=1
+info|2019-11-12 18:14:26.968008|[STORAGE]Stopping flushStorage thread
+info|2019-11-12 18:14:27.569473|[STORAGE]flushStorage thread stopped.
+info|2019-11-12 18:14:27.569488|[DBINITIALIZER] storage stopped
+info|2019-11-12 18:14:27.569557|[SYNC][id:6e4f3ba3...]SyncMaster stopped

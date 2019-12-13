@@ -1,0 +1,32 @@
+info|2019-12-13 03:07:06.004399|[P2P][Service] heartBeat,connected count=4
+warning|2019-12-13 03:07:06.067506|[g:1][CONSENSUS][PBFT]ViewChangeWarning: not caused by omit empty block ,v=17790,toV=17791,curNum=33,hash=1e4d9270...,nodeIdx=1,myNode=6f997471...
+info|2019-12-13 03:07:06.067586|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=17790,toView=17791,nodeIdx=1,changeCycle=1,myNode=6f997471...,timecost=10.921
+warning|2019-12-13 03:07:06.142317|[SYNC][id:6f997471...][Status]Peer data not found,nodeId=6e4f3ba3...
+info|2019-12-13 03:07:06.144977|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=17790,org_changeCycle=1,cur_changeCycle=1,to_view=17791
+warning|2019-12-13 03:07:06.201124|[CHANNEL][SESSION]onRead failed,value=2,message=End of file
+warning|2019-12-13 03:07:06.201952|[CHANNEL]onClientRequest,errorCode=-1,what=Read failed, disconnect
+warning|2019-12-13 03:07:06.205625|[CHANNEL][SESSION]onRead failed,value=2,message=End of file
+warning|2019-12-13 03:07:06.205644|[CHANNEL]onClientRequest,errorCode=-1,what=Read failed, disconnect
+info|2019-12-13 03:07:07.139521|[g:1][CONSENSUS]addRawPrepare,height=34,reqIdx=0,hash=0d92d1f8...
+info|2019-12-13 03:07:07.141045|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=17791,toView=17792,nodeIdx=1,changeCycle=0,myNode=6f997471...,timecost=1.501
+info|2019-12-13 03:07:07.141661|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=17791,org_changeCycle=0,cur_changeCycle=0,to_view=17792
+info|2019-12-13 03:07:08.119346|[CHANNEL]channel new connect, host=127.0.0.1:58298
+info|2019-12-13 03:07:08.120117|[CHANNEL]start receive
+info|2019-12-13 03:07:08.125043|[CHANNEL]channel new connect, host=127.0.0.1:58300
+info|2019-12-13 03:07:08.125085|[CHANNEL]start receive
+info|2019-12-13 03:07:08.141262|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=34,tx=0,nodeIdx=1,hash=2217496e...
+info|2019-12-13 03:07:08.145107|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=17792,toView=17793,nodeIdx=1,changeCycle=0,myNode=6f997471...,timecost=0.19
+info|2019-12-13 03:07:08.145395|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=17792,org_changeCycle=0,cur_changeCycle=0,to_view=17793
+info|2019-12-13 03:07:09.148796|[g:1][CONSENSUS]addRawPrepare,height=34,reqIdx=2,hash=e4932fbc...
+info|2019-12-13 03:07:09.149055|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=17793,toView=17794,nodeIdx=1,changeCycle=0,myNode=6f997471...,timecost=0.188
+info|2019-12-13 03:07:09.152924|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=17793,org_changeCycle=0,cur_changeCycle=0,to_view=17794
+info|2019-12-13 03:07:10.155722|[g:1][CONSENSUS]addRawPrepare,height=34,reqIdx=3,hash=f9765408...
+info|2019-12-13 03:07:10.155953|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=17794,toView=17795,nodeIdx=1,changeCycle=0,myNode=6f997471...,timecost=0.201
+info|2019-12-13 03:07:10.157878|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=17794,org_changeCycle=0,cur_changeCycle=0,to_view=17795
+warning|2019-12-13 03:07:11.049411|[SYNC][id:6f997471...][Status]Peer data not found,nodeId=6e4f3ba3...
+info|2019-12-13 03:07:11.069450|[RPC][getGroupList]request
+info|2019-12-13 03:07:11.075986|[RPC][getNodeIDList]request
+info|2019-12-13 03:07:11.083503|[RPC][getPeers]request
+info|2019-12-13 03:07:11.162328|[g:1][CONSENSUS]addRawPrepare,height=34,reqIdx=0,hash=917fdc93...
+info|2019-12-13 03:07:11.162616|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=17795,toView=17796,nodeIdx=1,changeCycle=0,myNode=6f997471...,timecost=0.222
+info|2019-12-13 03:07:11.207136|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=17795,org_changeCycle=0,cur_changeCycle=0,to_view=17796
